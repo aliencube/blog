@@ -2,7 +2,7 @@
 title: "맥OS 에서 불필요한 .NET SDK를 수동으로 제거하기"
 slug: removing-dotnet-sdks-from-macos-manually
 description: "이 포스트에서는 맥OS에서 새 버전의 .NET SDK를 새로 설치한다거나 할 때 필요없어진 예전 버전을 수동으로 제거하는 방법에 대해 다뤄봅니다."
-date: "2021-11-17"
+date: "2021-11-24"
 author: Justin-Yoo
 tags:
 - dotnet

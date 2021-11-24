@@ -1,7 +1,7 @@
 ---
 title: "Windows 11에서 node-gyp 패키지 트러블슈팅하기"
 slug: troubleshooting-node-gyp-package-on-windows11
-description: "이 포스트에서는 맥OS에서 새 버전의 .NET SDK를 새로 설치한다거나 할 때 필요없어진 예전 버전을 수동으로 제거하는 방법에 대해 다뤄봅니다."
+description: "이 포스트에서는 윈도우 11 환경에서 node.js 앱 개발시 흔히 볼 수 있는 node-gyp 패키지 에러를 해결하는 방법에 대해 알아봅니다."
 date: "2021-11-26"
 author: Justin-Yoo
 tags:

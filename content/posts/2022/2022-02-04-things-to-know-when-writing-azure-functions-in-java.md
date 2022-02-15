@@ -105,7 +105,15 @@ fullscreen: true
 
 https://gist.github.com/justinyoo/a41dc3bb8c19141f3844f214593956c8?file=02-pom.xml&highlights=6-7,18-19,32
 
-그런데, 실제로 배포를 해 보면, Java 11 버전으로 설정할 경우 배포는 잘 되지만 실제로 실행은 되지 않는다. 이 포스트를 작성하는 시점에서 존재하는 버그로 보이는데, 이건 곧 해결될 것으로 보이고, 그동안은 Java 8 버전을 타겟팅해서 컴파일한 후 배포하는 것을 권장한다.
+여기서 주의할 점이 있다. 애저 포탈을 통해 애저 펑션 앱 인스턴스를 프로비저닝할 경우에는 Java 8과 Java 11을 선택할 수 있다.
+
+![애저 포탈에서 자바 펑션앱 런타임 선택][image-10]
+
+하지만, bicep 또는 ARM 템플릿을 이용해서 펑션 앱 인스턴스를 프로비저닝할 경우, 별도의 설정을 하지 않는 이상 Java 8을 기본값으로 설정하게 된다. 따라서, 만약 Java 11 버전으로 앱을 배포하고 싶다면 반드시 bicep 또는 ARM 템플릿에 아래와 같이 명시적으로 Java 11 런타임을 사용한다고 선언을 해 주어야 한다. 아래는 bicep 파일의 예시이다. 리눅스 인스턴스를 사용할 때에는 line #8과 같이 `linuxFxVersion` 값을 `Java|11`으로 설정하고, 윈도우즈 인스턴스를 사용할 때에는 line #11과 같이 `javaVersion` 값을 `11`으로 설정해 주면 된다.
+
+https://gist.github.com/justinyoo/a41dc3bb8c19141f3844f214593956c8?file=03-functionapp.bicep&highlights=7-8,10-11
+
+위와 같이 해두면, Java 11 런타임 사용 선언 후 Java 8 앱을 배포하는 경우에는 문제가 되지 않지만, 반대로 Java 8 런타임을 사용하는 경우에는 Java 11 앱은 배포가 되더라도 실행되지 않는다.
 
 ---
 
@@ -121,6 +129,7 @@ https://gist.github.com/justinyoo/a41dc3bb8c19141f3844f214593956c8?file=02-pom.x
 [image-07]: https://sa0blogs.blob.core.windows.net/aliencube/2022/02/things-to-know-when-writing-azure-functions-in-java-07.png
 [image-08]: https://sa0blogs.blob.core.windows.net/aliencube/2022/02/things-to-know-when-writing-azure-functions-in-java-08.png
 [image-09]: https://sa0blogs.blob.core.windows.net/aliencube/2022/02/things-to-know-when-writing-azure-functions-in-java-09.png
+[image-10]: https://sa0blogs.blob.core.windows.net/aliencube/2022/02/things-to-know-when-writing-azure-functions-in-java-10.png
 
 
 [gh sample]: https://github.com/fusiondevkr/fusiondevkr

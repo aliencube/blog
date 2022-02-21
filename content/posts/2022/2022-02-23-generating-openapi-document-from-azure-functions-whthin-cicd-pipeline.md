@@ -1,6 +1,6 @@
 ---
 title: "CI/CD 파이프라인 안에서 애저 펑션 OpenAPI 문서 자동 생성하기"
-slug: generating-openapi-document-from-azure-functions-whthin-cicd-pipeline
+slug: generating-openapi-document-from-azure-functions-within-cicd-pipeline
 description: "이 포스트에서는 CI/CD 파이프라인 안에서 애저 펑션 앱을 빌드한 후 자동으로 OpenAPI 문서를 생성하는 방법에 대해 알아봅니다."
 date: "2022-02-23"
 author: Justin-Yoo

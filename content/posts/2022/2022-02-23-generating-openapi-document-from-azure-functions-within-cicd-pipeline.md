@@ -13,7 +13,10 @@ cover: https://sa0blogs.blob.core.windows.net/aliencube/2022/02/generating-opena
 fullscreen: true
 ---
 
-[애저 펑션][az fncapp] 앱에서 자동으로 OpenAPI 문서를 생성해 주는 [확장 기능][az fncapp ext openapi]을 이용하다 보면 흔히 볼 수 있는 상황이 있다. 그 중 하나가 바로 OpenAPI 문서를 펑션앱을 빌드한 직후 곧바로 생성해서 [파워 플랫폼][pp] 혹은 [애저 API 매니지먼트][az apim] 같은 다른 서비스와 바로 연동하는 것이다. 이 과정을 CI/CD 파이프라인 안에서 모두 처리를 하고 싶다면 어떻게 해야 할까?
+[애저 펑션][az fncapp] 앱에서 자동으로 OpenAPI 문서를 생성해 주는 [확장 기능][az fncapp ext openapi]을 이용하다 보면 흔히 볼 수 있는 상황이 있다. 그 중 하나가 바로 OpenAPI 문서를 펑션앱을 빌드한 직후 곧바로 생성해서 [파워 플랫폼][pp] 혹은 [애저 API 관리자][az apim] 같은 다른 서비스와 바로 연동하는 것이다. 이 과정을 CI/CD 파이프라인 안에서 모두 처리를 하고 싶다면 어떻게 해야 할까?
+
+* ***CI/CD 파이프라인 안에서 애저 펑션 OpenAPI 문서 자동 생성하기*** 👈
+* [CI/CD 파이프라인 안에서 애저 펑션 OpenAPI 문서를 애저 API 관리자로 자동 발행하기][post 2]
 
 이 포스트에서는 깃헙 액션을 이용해서 애저 펑션앱을 빌드하고, 곧바로 OpenAPI 문서를 생성한 후, 아티팩트로 저장하는 방법에 대해 알아보기로 한다.
 
@@ -56,8 +59,11 @@ https://gist.github.com/justinyoo/890cb4f3e409e237cf8405a7a343a04a?file=05-githu
 
 ---
 
-지금까지 깃헙 액션 워크플로우 안에서 애저 펑션을 백그라운드 프로세스를 이용해 로컬로 실행시키고 OpenAPI 문서를 호출하여 저장하는 방법에 대해 알아보았다. 이렇게 저장한 OpenAPI 문서는 다른 액션을 통해 아티팩트로 저장한 후 [파워 플랫폼][pp] 또는 [애저 API 매니지먼트][az apim]와 같은 다른 서비스에 통합시키면 된다.
+지금까지 깃헙 액션 워크플로우 안에서 애저 펑션을 백그라운드 프로세스를 이용해 로컬로 실행시키고 OpenAPI 문서를 호출하여 저장하는 방법에 대해 알아보았다. 이렇게 저장한 OpenAPI 문서는 다른 액션을 통해 아티팩트로 저장한 후 [파워 플랫폼][pp] 또는 [애저 API 관리자][az apim]와 같은 다른 서비스에 통합시키면 된다. [다음 포스트][post 2]에서는 실제로 CI/CD 파이프라인에서 생성한 OpenAPI 문서를 [애저 API 관리자][az apim]에 직접 발행하는 방법에 대해 알아보기로 하자.
 
+
+[post 1]: /ko/2022/02/23/generating-openapi-document-from-azure-functions-within-cicd-pipeline/
+[post 2]: /ko/2022/03/02/publishing-openapi-doc-from-azfunc-to-apim-within-cicd-pipeline/
 
 [pp]: https://powerplatform.microsoft.com/ko-kr/?WT.mc_id=dotnet-58527-juyoo
 

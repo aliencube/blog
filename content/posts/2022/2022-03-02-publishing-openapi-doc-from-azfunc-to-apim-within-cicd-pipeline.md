@@ -27,7 +27,42 @@ fullscreen: true
 
 [지난 포스트][post 1]에서 다뤘던 깃헙 액션 워크플로우는 아래와 같다. 우분투 러너를 사용한다고 가정한다 (line #21-35).
 
-https://gist.github.com/justinyoo/890cb4f3e409e237cf8405a7a343a04a?file=05-github-actions-workflow.yaml&highlights=21-35
+```yaml
+name: Build
+
+on:
+  push:
+
+jobs:
+  build_and_test:
+    name: Build
+    runs-on: 'ubuntu-latest'
+
+    steps:
+    - name: Build solution
+      shell: pwsh
+      run: |
+        pushd MyFunctionApp
+
+        dotnet build . -c Release -v minimal
+
+        popd
+
+    - name: Generate OpenAPI document
+      shell: pwsh
+      run: |
+        cd MyFunctionApp
+
+        Start-Process -NoNewWindow func @("start","--verbose","false")
+        Start-Sleep -s 60
+
+        Invoke-RestMethod -Method Get -Uri http://localhost:7071/api/swagger.json | ConvertTo-Json -Depth 100 | Out-File -FilePath outputs/swagger.json -Force
+
+        Get-Content -Path outputs/swagger.json
+
+        cd ..
+```
+
 
 위와 같은 방식으로 생성한 OpenAPI 문서는 기본 주소 값이 `https://localhost:7071/api`이다. 하지만, 실제로 배포가 되는 애저 펑션의 주소는 `https://<azure-functions-app>.azurewebsites.net/api`와 같은 형태이다. 따라서, 애저 API 관리자에 통합시키기 위한 OpenAPI 문서에서는 실제로 배포하지는 않았지만 곧 배포할 펑션 앱의 주소를 적용해야 한다. 다행히도 [문서][az fncapp ext openapi doc]에는 이와 관련한 언급이 있다.
 
@@ -37,15 +72,63 @@ https://gist.github.com/justinyoo/890cb4f3e409e237cf8405a7a343a04a?file=05-githu
 
 위 세 가지 사항을 적용시켜 아래와 같이 깃헙 액션을 수정한다 (line #4,5,12).
 
-https://gist.github.com/justinyoo/4b0138f38c8b15edbaa6fafe2c2a9e1e?file=02-github-actions-workflow-revised.yaml&highlights=4,5,12
+```yaml
+    - name: Generate OpenAPI document
+      shell: pwsh
+      env:
+        OpenApi__HostNames: 'https://<azure-functions-app>.azurewebsites.net/api'
+        AZURE_FUNCTIONS_ENVIRONMENT: 'Production'
+      run: |
+        cd MyFunctionApp
+
+        mkdir outputs
+
+        # Create local.settings.json
+        cp ./local.settings.sample.json ./local.settings.json
+
+        Start-Process -NoNewWindow func @("start","--verbose","false")
+        Start-Sleep -s 60
+
+        Invoke-RestMethod -Method Get -Uri http://localhost:7071/api/swagger.json | ConvertTo-Json -Depth 100 | Out-File -FilePath outputs/swagger.json -Force
+
+        Get-Content -Path outputs/swagger.json -Raw
+
+        cd ..
+```
 
 위의 예에서는 샘플로 제공되는 `local.settings.sample.json` 파일을 복사해서 사용했지만, 일반적인 방법은 아니다. 따라서, 보통의 경우에는 직접 `local.settings.json` 파일을 직접 생성해야 하는데, 이 때 `local.setting.json` 파일에는 반드시 `FUNCTIONS_WORKER_RUNTIME` 값을 포함시켜야 한다 (line #3). 다시 말하자면 가장 최소한의 `local.settings.json` 파일의 내용은 대략 아래와 같다.
 
-https://gist.github.com/justinyoo/4b0138f38c8b15edbaa6fafe2c2a9e1e?file=01-local-settings-min.json&highlights=3
+```json
+{
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+  }
+}
+```
 
 이렇게 해서 생성한 OpenAPI 문서를 보면 아래와 같이 바뀐 서버 주소가 적용된 것을 확인할 수 있다 (line #4,16).
 
-https://gist.github.com/justinyoo/4b0138f38c8b15edbaa6fafe2c2a9e1e?file=03-openapi.json&highlights=4,16
+```json
+// OpenAPI v2
+{
+  "swagger": "2.0",
+  "host": "<azure-functions-app>.azurewebsites.net",
+  "basePath": "/api",
+  "schemes": [
+    "https"
+  ]
+}
+
+// OpenAPI v3
+{
+  "openapi": "3.0.1",
+  "servers": [
+    {
+      "url": "https://<azure-functions-app>.azurewebsites.net/api"
+    }
+  ]
+}
+```
 
 지금까지, 애저 펑션 앱을 배포하지 않고도 배포한 앱에서 생성한 것과 동일한 OpenAPI 문서를 CI/CD 파이프라인 상에서 생성했다.
 
@@ -54,11 +137,35 @@ https://gist.github.com/justinyoo/4b0138f38c8b15edbaa6fafe2c2a9e1e?file=03-opena
 
 OpenAPI 문서를 위와 같이 준비했다면, 이를 [애저 API 관리자][az apim]로 발행시킬 차례이다. 다양한 방법이 있을 수 있겠지만, 여기서는 [bicep 파일][az bicep]을 작성하고 이를 [애저 CLI][az cli]를 이용해 배포하기로 한다. 아래는 이와 관련한 bicep 파일의 내용이다. 먼저 [`existing` 키워드][az bicep existing]를 이용해 기존 애저 API 관리자 인스턴스의 정보를 가져온다.
 
-https://gist.github.com/justinyoo/4b0138f38c8b15edbaa6fafe2c2a9e1e?file=04-azuredeploy-apim.bicep
+```javascript
+// azuredeploy.bicep
+param servicename string
+
+resource apim 'Microsoft.ApiManagement/service@2021-08-01' existing = {
+    name: servicename
+    scope: resourceGroup(apiManagement.groupName)
+}
+```
 
 이제 아래와 같이 API 인스턴스를 프로비저닝한다.
 
-https://gist.github.com/justinyoo/4b0138f38c8b15edbaa6fafe2c2a9e1e?file=05-azuredeploy-apimapi.bicep&highlights=12-13
+```javascript
+// azuredeploy.bicep
+param openapidoc string
+
+resource apimapi 'Microsoft.ApiManagement/service/apis@2021-08-01' = {
+    name: '${apim.name}/my-api'
+    properties: {
+        type: 'http'
+        displayName: 'My API'
+        description: 'This is my API.'
+        path: 'myapi'
+        subscriptionRequired: true
+        format: 'openapi+json-link'
+        value: openapidoc
+    }
+}
+```
 
 위 bicep 파일을 보면 `format`과 `value`라는 속성이 있는데 (line #12-13), 이를 사용하기 위해서는 아래 내용을 알아두면 좋다. 좀 더 자세한 내용은 [애저 Bicep 템플릿 레퍼런스][az apim bicep template] 문서를 참조한다.
 

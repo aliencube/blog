@@ -655,7 +655,7 @@ az ad sp create-for-rbac \
 
 ---
 
-지금까지 애저 리소스 프로비저닝 및 앱 배포와 관련한 오토파일럿 기능을 [깃헙 액션][gh actions]의 다양한 이벤트 트리거와 [애저 bicep][az bicep]을 활용해서 구현해 보았다. 이를 활용하면 PoC 애플리케이션을 만들어서 고객에게 데모를 보여준다거나 할 때, 누구든 깃헙 리포지토리만 접근할 수 있다면 별도의 지식이 없이도 스스로 리소스를 만들고 앱을 배포할 수 있게 될 것이다.
+지금까지 애저 리소스 프로비저닝 및 앱 배포와 관련한 오토파일럿 기능을 [깃헙 액션][gh actions]의 다양한 이벤트 트리거와 [애저 bicep][az bicep]을 활용해서 구현해 보았다. 이를 활용하면 PoC 애플리케이션을 만들어서 고객에게 데모를 보여준다거나 할 때, 누구든 깃헙 리포지토리만 접근할 수 있다면 별도의 지식이 없이도 스스로 리소스를 만들고 앱을 배포할 수 있게 될 것이다. [다음 포스트][post 2]에서는 실제로 애저 bicep의 [배포 스크립트][az bicep deploymentscript] 기능을 활용해서 오토파일럿을 구현해 보기로 한다.
 
 
 [image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2022/03/azure-apps-autopilot-01.png
@@ -667,6 +667,9 @@ az ad sp create-for-rbac \
 [image-07]: https://sa0blogs.blob.core.windows.net/aliencube/2022/03/azure-apps-autopilot-07.png
 [image-08]: https://sa0blogs.blob.core.windows.net/aliencube/2022/03/azure-apps-autopilot-08.png
 
+
+[post 1]: /ko/2022/03/11/azure-apps-autopilot/
+[post 2]: /ko/2022/04/06/azure-bicep-deployment-script/
 
 [az bicep]: https://docs.microsoft.com/ko-kr/azure/azure-resource-manager/bicep/overview?tabs=bicep&WT.mc_id=dotnet-59944-juyoo
 [az bicep deploymentscript]: https://docs.microsoft.com/ko-kr/azure/azure-resource-manager/bicep/deployment-script-bicep?WT.mc_id=dotnet-59944-juyoo

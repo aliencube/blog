@@ -2,7 +2,7 @@
 title: "애저 API 관리자의 효과적인 OAuth 인증 관리"
 slug: apim-token-store
 description: "이 포스트에서는 애저 API 관리자에서 프리뷰 기능으로 제공하는 써드파티 OAuth 앱의 인증키를 자동으로 관리해 주는 기능에 대해 알아봅니다."
-date: "2022-06-10"
+date: "2022-06-08"
 author: Justin-Yoo
 tags:
 - azure
@@ -32,7 +32,7 @@ fullscreen: true
 
 > OAuth 인증 플로우와 관련한 좀 더 자세한 내용은 [이 문서][oauth flow concept]를 참고하면 좋다.
 
-따라서, 위와 같은 일련의 과정을 개발자가 직접 애플리케이션을 개발할 때 구현해야 한다. 그나마 SDK가 있는 서비스일 경우에는 상대적으로 간단해지긴 하겠지만, 그렇지 않을 경우에는 굉장히 복잡한 구현이 필요할 수도 있다. 그런데, 만약 이 모든 과정을 누가 대신해 준다면 어떨까? 보안상 안전한 곳에서 이 모든 과정을 누군가 대신해 주고 개발자에게는 액세스 토큰만 바로바로 발급해 준다면 애플리케이션 개발에 있어서 아주아주 편리한 기능이 될 수 있을 것이다. 마침 [애저 API 관리자][az apim]에서 이 OAuth 인증 과정을 단축시켜 주는 기능을 프리뷰로 선보였는데, 이 포스트에서는 이 과정에 대해 한 번 알아보기로 한다.
+따라서, 위와 같은 일련의 과정을 개발자가 직접 애플리케이션을 개발할 때 구현해야 한다. 그나마 SDK가 있는 서비스일 경우에는 상대적으로 간단해지긴 하겠지만, 그렇지 않을 경우에는 굉장히 복잡한 구현이 필요할 수도 있다. 그런데, 만약 이 모든 과정을 누가 대신해 준다면 어떨까? 보안상 안전한 곳에서 이 모든 과정을 누군가 대신해 주고 개발자에게는 액세스 토큰만 바로바로 발급해 준다면 애플리케이션 개발에 있어서 아주아주 편리한 기능이 될 수 있을 것이다. 마침 [애저 API 관리자][az apim]에서 이 [OAuth 인증 과정을 단축시켜 주는 기능을 프리뷰로 선보였는데][az apim tokenstore], 이 포스트에서는 이 과정에 대해 한 번 알아보기로 한다.
 
 > 여기서 쓰인 예제 애플리케이션 코드는 [이곳][gh sample]에서 다운로드 받을 수 있다.
 
@@ -485,7 +485,7 @@ APIM 인스턴스가 드롭박스 앱을 사용하기 위한 인증이 끝났다
 [image-22]: https://sa0blogs.blob.core.windows.net/aliencube/2022/06/apim-token-store-22.png
 
 
-[post 1]: .
+[post 1]: https://techcommunity.microsoft.com/t5/apps-on-azure-blog/implementing-a-token-store-with-apim-authorizations/ba-p/3453516?WT.mc_id=dotnet-57408-juyoo
 
 [gh sample]: https://github.com/aaronpowell/token-store-demo
 
@@ -499,7 +499,7 @@ APIM 인스턴스가 드롭박스 앱을 사용하기 위한 인증이 끝났다
 
 [az apim]: https://docs.microsoft.com/ko-kr/azure/api-management/api-management-key-concepts?WT.mc_id=dotnet-57408-juyoo
 [az apim mi]: https://docs.microsoft.com/ko-kr/azure/api-management/api-management-howto-use-managed-service-identity?WT.mc_id=dotnet-57408-juyoo
-[az apim tokenstore]: .
+[az apim tokenstore]: https://docs.microsoft.com/ko-kr/azure/api-management/authorizations-overview?WT.mc_id=dotnet-57408-juyoo
 
 [az kv]: https://docs.microsoft.com/ko-kr/azure/key-vault/general/basic-concepts?WT.mc_id=dotnet-57408-juyoo
 

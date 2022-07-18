@@ -284,7 +284,7 @@ Update-FileContent `
 
 ---
 
-지금까지 [블레이저 웹어셈블리][blazor wasm] 앱을 이용해 기존의 자바스크립트 기반 크롬 익스텐션을 최소한의 코드 변경만으로 이전하는 것에 대해 알아보았다. 이 방식을 사용한다면 별다른 수고 없이도 블레이저 웹어셈블리 앱을 활용할 수 있겠지만, 사실 블레이저 웹어셈블리의 강력한 [자바스크립트 상호운용성(JS interop)][blazor wasm jsinterop] 기능을 십분 활용하진 못한 셈이다. 다음 포스트에서는 동일한 크롬 익스텐션을 이용하지만 자바스크립트 상호운용성을 조금 더 잘 활용하는 방법에 대해 알아보기로 한다.
+지금까지 [블레이저 웹어셈블리][blazor wasm] 앱을 이용해 기존의 자바스크립트 기반 크롬 익스텐션을 최소한의 코드 변경만으로 이전하는 것에 대해 알아보았다. 이 방식을 사용한다면 별다른 수고 없이도 블레이저 웹어셈블리 앱을 활용할 수 있겠지만, 사실 블레이저 웹어셈블리의 강력한 [자바스크립트 상호운용성(JS interop)][blazor wasm jsinterop] 기능을 십분 활용하진 못한 셈이다. [다음 포스트][post 2]에서는 동일한 크롬 익스텐션을 이용하지만 자바스크립트 상호운용성을 조금 더 적극적으로 활용하는 방법에 대해 알아보기로 한다.
 
 
 ## 블레이저 앱에 대해 더 알고 싶다면? ##
@@ -315,6 +315,9 @@ Update-FileContent `
 [image-17]: https://sa0blogs.blob.core.windows.net/aliencube/2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-17-ko.png
 [image-18]: https://sa0blogs.blob.core.windows.net/aliencube/2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-18-ko.png
 
+
+[post 1]: /ko/2022/07/08/lift-and-shift-existing-chrome-extension-to-blazor-wasm/
+[post 2]: /ko/2022/07/20/lift-and-shift-existing-chrome-extension-to-blazor-wasm-2/
 
 [gh sample]: https://github.com/devkimchi/blazor-wasm-chrome-extension/tree/the-migration
 [gh sample v2 original]: https://github.com/devkimchi/blazor-wasm-chrome-extension/tree/the-migration/src/chrome-extension-v2

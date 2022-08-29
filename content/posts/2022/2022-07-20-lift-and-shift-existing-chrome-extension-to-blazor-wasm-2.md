@@ -1,5 +1,5 @@
 ---
-title: "기존 크롬 익스텐션을 블레이저 웹어셈블리로 이전하기 #2"
+title: "기존 크롬 익스텐션을 블레이저 웹어셈블리로 이전하기 #2 - 자바스크립트 상호운용성"
 slug: lift-and-shift-existing-chrome-extension-to-blazor-wasm-2
 description: "이 포스트에서는 기존에 자바스크립트 기반으로 작동하던 크롬 익스텐션을 블레이저 웹어셈블리로 별다른 설정 없이 이전하는 방법에 대해 알아봅니다."
 date: "2022-07-20"
@@ -16,6 +16,13 @@ fullscreen: true
 [지난 포스트][post 1]에서는 최소한의 코드 변경만으로 기존 자바스크립트 기반의 [크롬 익스텐션][chrome extension]을 [블레이저 웹어셈블리][blazor wasm] 기반으로 이전하는 방법에 대해 알아 보았다. 하지만 이 때에는 블레이저 웹어셈블리의 장점인 [자바스크립트 상호운용성(JS interop)][blazor wasm jsinterop] 기능을 제대로 활용하지는 않았다. 이 포스트를 통해 이 자바스크립트 상호운용성 기능을 좀 더 적극적으로 활용하는 방식을 다뤄보기로 한다.
 
 > 이 포스트에 사용한 샘플 앱은 [이곳][gh sample]에서 다운로드 받을 수 있다.
+
+
+## 블레이저 웹어셈블리를 활용한 브라우저 익스텐션 만들기 시리즈 ##
+
+* [기존 크롬 익스텐션을 블레이저 웹어셈블리로 이전하기 - 블레이저 웹어셈블리 적용][post 1]
+* ***기존 크롬 익스텐션을 블레이저 웹어셈블리로 이전하기 #2 - 자바스크립트 상호운용성*** 👈
+* [기존 크롬 익스텐션을 블레이저 웹어셈블리로 이전하기 #3 - 크로스 브라우저 호환][post 3]
 
 
 ## 크롬 익스텐션 &ndash; 자바스크립트 상호운용성 적용 전 ##
@@ -261,7 +268,7 @@ await module.InvokeVoidAsync("loadJs", src).ConfigureAwait(false);
 1. 이 포스트에서 사용한 방식대로 자바스크립트 상호운용성 기능을 사용하는 것은 어찌보면 불필요한 복잡도를 높이는 것일 수도 있다. 단순히 `index.html`/`popup.html`/`options.html` 파일을 통해 자바스크립트를 로딩하는 방식을 사용한다면 굳이 이런 식의 접근이 필요하지 않을 수도 있다.
 2. 이 포스트에서 활용한 동적 JS 로딩 방식이 항상 효과적인 것도 아니다. 반드시 트레이드오프가 있게 마련인데, 부트스트래퍼 파일을 수정하고 싶지 않다면, 이 방식이 도움이 되겠지만, 결국 어떤 식으로든 부트스트래퍼 파일을 건드려야 하는 상황이 온다면 그 땐 적절하게 동적 로딩을 사용하는 것이 필요할 것이다.
 
-결국, 이와 같은 형태로 자바스크립트 상호운용성을 좀 더 적극적으로 그리고 적절하게 사용한다면 블레이저 웹어셈블리 형태로 크롬 익스텐션을 더욱 더 효과적으로 만들 수 있을 것이다.
+결국, 이와 같은 형태로 자바스크립트 상호운용성을 좀 더 적극적으로 그리고 적절하게 사용한다면 블레이저 웹어셈블리 형태로 크롬 익스텐션을 더욱 더 효과적으로 만들 수 있을 것이다. [다음 포스트][post 3]에서는 이렇게 만든 크롬 브라우저를 다양한 브라우저 엔진에서 활용할 수 있게끔 크로스 브라우저 호환성을 추가해 보기로 한다.
 
 
 ## 블레이저 앱에 대해 더 알고 싶다면? ##
@@ -275,6 +282,7 @@ await module.InvokeVoidAsync("loadJs", src).ConfigureAwait(false);
 
 [post 1]: /ko/2022/07/08/lift-and-shift-existing-chrome-extension-to-blazor-wasm/
 [post 2]: /ko/2022/07/20/lift-and-shift-existing-chrome-extension-to-blazor-wasm-2/
+[post 3]: /ko/2022/08/31/lift-and-shift-existing-chrome-extension-to-blazor-wasm-3/
 
 [gh sample]: https://github.com/devkimchi/blazor-wasm-chrome-extension/tree/the-integration
 [gh sample v2 blazor]: https://github.com/devkimchi/blazor-wasm-chrome-extension/tree/the-integration/src/ChromeExtensionV2

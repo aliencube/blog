@@ -1,5 +1,5 @@
 ---
-title: "기존 크롬 익스텐션을 블레이저 웹어셈블리로 이전하기"
+title: "기존 크롬 익스텐션을 블레이저 웹어셈블리로 이전하기 - 블레이저 웹어셈블리 적용"
 slug: lift-and-shift-existing-chrome-extension-to-blazor-wasm
 description: "이 포스트에서는 기존에 자바스크립트 기반으로 작동하던 크롬 익스텐션을 블레이저 웹어셈블리로 별다른 설정 없이 이전하는 방법에 대해 알아봅니다."
 date: "2022-07-08"
@@ -16,6 +16,13 @@ fullscreen: true
 [크롬 익스텐션][chrome extension]은 크로미움 기반의 웹 브라우저에서 다양한 용도로 활용할 수 있는 작은 애플리케이션이다. 기본적으로 웹서버가 필요하지 않은, 정적 컨텐츠로 만들어진 하나의 웹 애플리케이션이라고 생각하면 편하다. 그렇다면, 이 크롬 익스텐션을 [블레이저 웹어셈블리][blazor wasm] 기반으로 만들 수도 있지 않을까? 이 포스트를 통해 기존의 크롬 익스텐션을 최소한의 코드 변경만으로 블레이저 웹어셈블리 앱으로 이전하는 방법에 대해 알아보기로 하자.
 
 > 이 포스트에 사용한 샘플 앱은 [이곳][gh sample]에서 다운로드 받을 수 있다.
+
+
+## 블레이저 웹어셈블리를 활용한 브라우저 익스텐션 만들기 시리즈 ##
+
+* ***기존 크롬 익스텐션을 블레이저 웹어셈블리로 이전하기 - 블레이저 웹어셈블리 적용*** 👈
+* [기존 크롬 익스텐션을 블레이저 웹어셈블리로 이전하기 #2 - 자바스크립트 상호운용성][post 2]
+* [기존 크롬 익스텐션을 블레이저 웹어셈블리로 이전하기 #3 - 크로스 브라우저 호환][post 3]
 
 
 ## 크롬 익스텐션 &ndash; 기존 자바스크립트 기반 ##
@@ -318,6 +325,7 @@ Update-FileContent `
 
 [post 1]: /ko/2022/07/08/lift-and-shift-existing-chrome-extension-to-blazor-wasm/
 [post 2]: /ko/2022/07/20/lift-and-shift-existing-chrome-extension-to-blazor-wasm-2/
+[post 3]: /ko/2022/08/31/lift-and-shift-existing-chrome-extension-to-blazor-wasm-3/
 
 [gh sample]: https://github.com/devkimchi/blazor-wasm-chrome-extension/tree/the-migration
 [gh sample v2 original]: https://github.com/devkimchi/blazor-wasm-chrome-extension/tree/the-migration/src/chrome-extension-v2

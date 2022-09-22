@@ -196,17 +196,17 @@ await builder.Build().RunAsync();
 
 [gh sample]: https://github.com/fitability/fitability-app
 
-[vs 2022]: https://visualstudio.microsoft.com/vs/?WT.mc_id=dotnet-70466-juyoo
+[vs 2022]: https://visualstudio.microsoft.com/vs/?WT.mc_id=dotnet-77749-juyoo
 
-[blazor]: https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor?WT.mc_id=dotnet-70466-juyoo
-[blazor tutorial]: https://dotnet.microsoft.com/learn/aspnet/blazor-tutorial/intro?WT.mc_id=dotnet-70466-juyoo
-[blazor learn]: https://learn.microsoft.com/ko-kr/training/paths/build-web-apps-with-blazor/?WT.mc_id=dotnet-70466-juyoo
-[blazor wasm]: https://learn.microsoft.com/ko-kr/aspnet/core/blazor/?WT.mc_id=dotnet-70466-juyoo#blazor-webassembly
-[blazor wasm standalone az ad b2c]: https://learn.microsoft.com/ko-kr/aspnet/core/blazor/security/webassembly/standalone-with-azure-active-directory-b2c?WT.mc_id=dotnet-70466-juyoo
-[blazor wasm hosted az ad b2c]: https://learn.microsoft.com/ko-kr/aspnet/core/blazor/security/webassembly/hosted-with-azure-active-directory-b2c?WT.mc_id=dotnet-70466-juyoo
-[blazor wasm addtional scenarios]: https://learn.microsoft.com/ko-kr/aspnet/core/blazor/security/webassembly/additional-scenarios?WT.mc_id=dotnet-70466-juyoo
+[blazor]: https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor?WT.mc_id=dotnet-77749-juyoo
+[blazor tutorial]: https://dotnet.microsoft.com/learn/aspnet/blazor-tutorial/intro?WT.mc_id=dotnet-77749-juyoo
+[blazor learn]: https://learn.microsoft.com/ko-kr/training/paths/build-web-apps-with-blazor/?WT.mc_id=dotnet-77749-juyoo
+[blazor wasm]: https://learn.microsoft.com/ko-kr/aspnet/core/blazor/?WT.mc_id=dotnet-77749-juyoo#blazor-webassembly
+[blazor wasm standalone az ad b2c]: https://learn.microsoft.com/ko-kr/aspnet/core/blazor/security/webassembly/standalone-with-azure-active-directory-b2c?WT.mc_id=dotnet-77749-juyoo
+[blazor wasm hosted az ad b2c]: https://learn.microsoft.com/ko-kr/aspnet/core/blazor/security/webassembly/hosted-with-azure-active-directory-b2c?WT.mc_id=dotnet-77749-juyoo
+[blazor wasm addtional scenarios]: https://learn.microsoft.com/ko-kr/aspnet/core/blazor/security/webassembly/additional-scenarios?WT.mc_id=dotnet-77749-juyoo
 
-[az swa]: https://learn.microsoft.com/ko-kr/azure/static-web-apps/overview?WT.mc_id=dotnet-70466-juyoo
-[az ad]: https://learn.microsoft.com/ko-kr/azure/active-directory/fundamentals/active-directory-whatis?WT.mc_id=dotnet-70466-juyoo
-[az ad b2c]: https://learn.microsoft.com/ko-kr/azure/active-directory-b2c/overview?WT.mc_id=dotnet-70466-juyoo
-[az ad b2c userflow]: https://learn.microsoft.com/ko-kr/azure/active-directory-b2c/tutorial-create-user-flows?pivots=b2c-user-flow&WT.mc_id=dotnet-70466-juyoo
+[az swa]: https://learn.microsoft.com/ko-kr/azure/static-web-apps/overview?WT.mc_id=dotnet-77749-juyoo
+[az ad]: https://learn.microsoft.com/ko-kr/azure/active-directory/fundamentals/active-directory-whatis?WT.mc_id=dotnet-77749-juyoo
+[az ad b2c]: https://learn.microsoft.com/ko-kr/azure/active-directory-b2c/overview?WT.mc_id=dotnet-77749-juyoo
+[az ad b2c userflow]: https://learn.microsoft.com/ko-kr/azure/active-directory-b2c/tutorial-create-user-flows?pivots=b2c-user-flow&WT.mc_id=dotnet-77749-juyoo

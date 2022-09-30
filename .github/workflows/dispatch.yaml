@@ -2,6 +2,12 @@ name: Repository Dispatch
 
 on: repository_dispatch
 
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   merge_pr:
     name: Merge PR
@@ -29,47 +35,14 @@ jobs:
       run: |
         curl -X POST 'https://${{ secrets.AZURE_FUNCTIONS_NAME }}.azurewebsites.net/api/events/publish' -d '{ "owner": "aliencube", "repository": "blog" }' -H "x-functions-key: ${{ secrets.AZURE_FUNCTIONS_KEY }}" -H "Content-Type: application/json"
 
-  build_and_publish:
-    name: Build and publish
+  call_build_app:
     if: github.event.action == 'publish'
+    uses: ./.github/workflows/build-app.yaml
+    secrets: inherit
 
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Checkout the repo
-      uses: actions/checkout@v2
-
-    - name: Install node.js SDK
-      uses: actions/setup-node@v2
-      with:
-        node-version: '16'
-
-    - name: Install Netlify CLI
-      shell: bash
-      run: |
-        sudo npm install --unsafe-perm=true -g netlify-cli
-
-    - name: Install npm packages
-      shell: bash
-      run: |
-        npm install
-
-    - name: Monkey patch npm package (Interim)
-      shell: bash
-      run: |
-        cp patches/Gist.js node_modules/@noxify/gridsome-plugin-remark-embed/src/providers
-
-    - name: Build app
-      shell: bash
-      run: |
-        npm run build
-
-    - name: Apply redirects
-      shell: bash
-      run: |
-        cp _redirects dist
-
-    - name: Publish app
-      shell: bash
-      run: |
-        sudo netlify deploy -p -s ${{ secrets.NETLIFY_SITE_ID }} -a ${{ secrets.NETLIFY_AUTH_TOKEN }}
+  call_deploy_gh_pages:
+    if: github.event.action == 'publish'
+    needs:
+    - call_build_app
+    uses: ./.github/workflows/deploy-gh-pages.yaml
+    secrets: inherit

@@ -1,51 +1,23 @@
-name: Publish Static Web App to Netlify
+name: Publish Static Web App to GH Pages
 
 on:
   push:
     branches:
     - dev
 
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
-  build_and_publish:
-    name: Build and publish
+  call_build_app:
+    uses: ./.github/workflows/build-app.yaml
+    secrets: inherit
 
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Checkout the repo
-      uses: actions/checkout@v2
-
-    - name: Install node.js SDK
-      uses: actions/setup-node@v2
-      with:
-        node-version: '16'
-
-    - name: Install Netlify CLI
-      shell: bash
-      run: |
-        sudo npm install --unsafe-perm=true -g netlify-cli
-
-    - name: Install npm packages
-      shell: bash
-      run: |
-        npm install
-
-    - name: Monkey patch npm package (Interim)
-      shell: bash
-      run: |
-        cp patches/Gist.js node_modules/@noxify/gridsome-plugin-remark-embed/src/providers
-
-    - name: Build app
-      shell: bash
-      run: |
-        npm run build
-
-    - name: Apply redirects
-      shell: bash
-      run: |
-        cp _redirects dist
-
-    - name: Publish app
-      shell: bash
-      run: |
-        sudo netlify deploy -p -s ${{ secrets.NETLIFY_SITE_ID }} -a ${{ secrets.NETLIFY_AUTH_TOKEN }}
+  call_deploy_gh_pages:
+    needs:
+    - call_build_app
+    uses: ./.github/workflows/deploy-gh-pages.yaml
+    secrets: inherit

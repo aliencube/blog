@@ -1,0 +1,44 @@
+name: Build App
+
+on:
+  workflow_call
+
+jobs:
+  build_and_publish:
+    name: Build and publish
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout the repo
+      uses: actions/checkout@v2
+
+    - name: Install node.js SDK
+      uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+
+    - name: Install npm packages
+      shell: bash
+      run: |
+        npm install
+
+    - name: Monkey patch npm package (Interim)
+      shell: bash
+      run: |
+        cp patches/Gist.js node_modules/@noxify/gridsome-plugin-remark-embed/src/providers
+
+    - name: Build app
+      shell: bash
+      run: |
+        npm run build
+
+    - name: Apply redirects
+      shell: bash
+      run: |
+        cp _redirects dist
+
+    - name: Upload artifact for web
+      uses: actions/upload-pages-artifact@v1
+      with:
+        path: dist

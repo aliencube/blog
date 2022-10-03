@@ -9,7 +9,7 @@ tags:
 - autopilot
 - bicep
 - developer-experience
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2022/04/azure-bicep-deployment-script-00.png
+cover: /2022/04/azure-bicep-deployment-script-00.png
 fullscreen: true
 ---
 
@@ -185,10 +185,10 @@ module uai './deploymentScript.bicep' = {
 지금까지 애저 리소스 프로비저닝 및 앱 배포와 관련한 오토파일럿 기능을 [애저 bicep][az bicep]의 [배포 스트립트][az bicep ds] 기능을 통해 구현해 보았다. 이를 활용한다면 다양한 상황에서 별도의 번거로운 작업 없이도 스스로 리소스를 만들고 앱을 배포할 수 있게 될 것이다.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2022/04/azure-bicep-deployment-script-01-ko.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2022/04/azure-bicep-deployment-script-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2022/04/azure-bicep-deployment-script-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/aliencube/2022/04/azure-bicep-deployment-script-04.png
+[image-01]: /2022/04/azure-bicep-deployment-script-01-ko.png
+[image-02]: /2022/04/azure-bicep-deployment-script-02.png
+[image-03]: /2022/04/azure-bicep-deployment-script-03.png
+[image-04]: /2022/04/azure-bicep-deployment-script-04.png
 
 
 [post 1]: /ko/2022/03/11/azure-apps-autopilot/

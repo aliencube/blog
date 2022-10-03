@@ -9,7 +9,7 @@ tags:
 - api-management
 - oauth-token-store
 - authorizations
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2022/06/apim-token-store-00.png
+cover: /2022/06/apim-token-store-00.png
 fullscreen: true
 ---
 
@@ -461,28 +461,28 @@ APIM 인스턴스가 드롭박스 앱을 사용하기 위한 인증이 끝났다
 
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2022/06/apim-token-store-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2022/06/apim-token-store-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2022/06/apim-token-store-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/aliencube/2022/06/apim-token-store-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/aliencube/2022/06/apim-token-store-05.png
-[image-06]: https://sa0blogs.blob.core.windows.net/aliencube/2022/06/apim-token-store-06.png
-[image-07]: https://sa0blogs.blob.core.windows.net/aliencube/2022/06/apim-token-store-07.png
-[image-08]: https://sa0blogs.blob.core.windows.net/aliencube/2022/06/apim-token-store-08.png
-[image-09]: https://sa0blogs.blob.core.windows.net/aliencube/2022/06/apim-token-store-09.png
-[image-10]: https://sa0blogs.blob.core.windows.net/aliencube/2022/06/apim-token-store-10.png
-[image-11]: https://sa0blogs.blob.core.windows.net/aliencube/2022/06/apim-token-store-11.png
-[image-12]: https://sa0blogs.blob.core.windows.net/aliencube/2022/06/apim-token-store-12.png
-[image-13]: https://sa0blogs.blob.core.windows.net/aliencube/2022/06/apim-token-store-13.png
-[image-14]: https://sa0blogs.blob.core.windows.net/aliencube/2022/06/apim-token-store-14.png
-[image-15]: https://sa0blogs.blob.core.windows.net/aliencube/2022/06/apim-token-store-15.png
-[image-16]: https://sa0blogs.blob.core.windows.net/aliencube/2022/06/apim-token-store-16.png
-[image-17]: https://sa0blogs.blob.core.windows.net/aliencube/2022/06/apim-token-store-17.png
-[image-18]: https://sa0blogs.blob.core.windows.net/aliencube/2022/06/apim-token-store-18.png
-[image-19]: https://sa0blogs.blob.core.windows.net/aliencube/2022/06/apim-token-store-19.png
-[image-20]: https://sa0blogs.blob.core.windows.net/aliencube/2022/06/apim-token-store-20.png
-[image-21]: https://sa0blogs.blob.core.windows.net/aliencube/2022/06/apim-token-store-21.png
-[image-22]: https://sa0blogs.blob.core.windows.net/aliencube/2022/06/apim-token-store-22.png
+[image-01]: /2022/06/apim-token-store-01.png
+[image-02]: /2022/06/apim-token-store-02.png
+[image-03]: /2022/06/apim-token-store-03.png
+[image-04]: /2022/06/apim-token-store-04.png
+[image-05]: /2022/06/apim-token-store-05.png
+[image-06]: /2022/06/apim-token-store-06.png
+[image-07]: /2022/06/apim-token-store-07.png
+[image-08]: /2022/06/apim-token-store-08.png
+[image-09]: /2022/06/apim-token-store-09.png
+[image-10]: /2022/06/apim-token-store-10.png
+[image-11]: /2022/06/apim-token-store-11.png
+[image-12]: /2022/06/apim-token-store-12.png
+[image-13]: /2022/06/apim-token-store-13.png
+[image-14]: /2022/06/apim-token-store-14.png
+[image-15]: /2022/06/apim-token-store-15.png
+[image-16]: /2022/06/apim-token-store-16.png
+[image-17]: /2022/06/apim-token-store-17.png
+[image-18]: /2022/06/apim-token-store-18.png
+[image-19]: /2022/06/apim-token-store-19.png
+[image-20]: /2022/06/apim-token-store-20.png
+[image-21]: /2022/06/apim-token-store-21.png
+[image-22]: /2022/06/apim-token-store-22.png
 
 
 [post 1]: https://techcommunity.microsoft.com/t5/apps-on-azure-blog/implementing-a-token-store-with-apim-authorizations/ba-p/3453516?WT.mc_id=dotnet-57408-juyoo

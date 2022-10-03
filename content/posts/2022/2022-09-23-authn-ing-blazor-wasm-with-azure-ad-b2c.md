@@ -9,7 +9,7 @@ tags:
 - blazor-wasm
 - azure-ad-b2c
 - authn
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2022/09/authn-ing-blazor-wasm-with-azure-ad-b2c-00-ko.png
+cover: /2022/09/authn-ing-blazor-wasm-with-azure-ad-b2c-00-ko.png
 fullscreen: true
 ---
 
@@ -177,19 +177,19 @@ await builder.Build().RunAsync();
 * [애저 AD B2C 보안 사용자 흐름 정책][az ad b2c userflow]
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2022/09/authn-ing-blazor-wasm-with-azure-ad-b2c-01-ko.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2022/09/authn-ing-blazor-wasm-with-azure-ad-b2c-02-ko.png
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2022/09/authn-ing-blazor-wasm-with-azure-ad-b2c-03-ko.png
-[image-04]: https://sa0blogs.blob.core.windows.net/aliencube/2022/09/authn-ing-blazor-wasm-with-azure-ad-b2c-04-ko.png
-[image-05]: https://sa0blogs.blob.core.windows.net/aliencube/2022/09/authn-ing-blazor-wasm-with-azure-ad-b2c-05-ko.png
-[image-06]: https://sa0blogs.blob.core.windows.net/aliencube/2022/09/authn-ing-blazor-wasm-with-azure-ad-b2c-06-ko.png
-[image-07]: https://sa0blogs.blob.core.windows.net/aliencube/2022/09/authn-ing-blazor-wasm-with-azure-ad-b2c-07-ko.png
-[image-08]: https://sa0blogs.blob.core.windows.net/aliencube/2022/09/authn-ing-blazor-wasm-with-azure-ad-b2c-08-ko.png
-[image-09]: https://sa0blogs.blob.core.windows.net/aliencube/2022/09/authn-ing-blazor-wasm-with-azure-ad-b2c-09-ko.png
-[image-10]: https://sa0blogs.blob.core.windows.net/aliencube/2022/09/authn-ing-blazor-wasm-with-azure-ad-b2c-10-ko.png
-[image-11]: https://sa0blogs.blob.core.windows.net/aliencube/2022/09/authn-ing-blazor-wasm-with-azure-ad-b2c-11-ko.png
-[image-12]: https://sa0blogs.blob.core.windows.net/aliencube/2022/09/authn-ing-blazor-wasm-with-azure-ad-b2c-12-ko.png
-[image-13]: https://sa0blogs.blob.core.windows.net/aliencube/2022/09/authn-ing-blazor-wasm-with-azure-ad-b2c-13-ko.png
+[image-01]: /2022/09/authn-ing-blazor-wasm-with-azure-ad-b2c-01-ko.png
+[image-02]: /2022/09/authn-ing-blazor-wasm-with-azure-ad-b2c-02-ko.png
+[image-03]: /2022/09/authn-ing-blazor-wasm-with-azure-ad-b2c-03-ko.png
+[image-04]: /2022/09/authn-ing-blazor-wasm-with-azure-ad-b2c-04-ko.png
+[image-05]: /2022/09/authn-ing-blazor-wasm-with-azure-ad-b2c-05-ko.png
+[image-06]: /2022/09/authn-ing-blazor-wasm-with-azure-ad-b2c-06-ko.png
+[image-07]: /2022/09/authn-ing-blazor-wasm-with-azure-ad-b2c-07-ko.png
+[image-08]: /2022/09/authn-ing-blazor-wasm-with-azure-ad-b2c-08-ko.png
+[image-09]: /2022/09/authn-ing-blazor-wasm-with-azure-ad-b2c-09-ko.png
+[image-10]: /2022/09/authn-ing-blazor-wasm-with-azure-ad-b2c-10-ko.png
+[image-11]: /2022/09/authn-ing-blazor-wasm-with-azure-ad-b2c-11-ko.png
+[image-12]: /2022/09/authn-ing-blazor-wasm-with-azure-ad-b2c-12-ko.png
+[image-13]: /2022/09/authn-ing-blazor-wasm-with-azure-ad-b2c-13-ko.png
 
 
 [post 1]: /ko/2021/09/15/accessing-msgraph-from-blazor-wasm-running-on-aswa/

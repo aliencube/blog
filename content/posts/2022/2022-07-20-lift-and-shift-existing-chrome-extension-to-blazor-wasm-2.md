@@ -9,7 +9,7 @@ tags:
 - blazor-wasm
 - chrome-extension
 - migration
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-00.png
+cover: /2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-00.png
 fullscreen: true
 ---
 

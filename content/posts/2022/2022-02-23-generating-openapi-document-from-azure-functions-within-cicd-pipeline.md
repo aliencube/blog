@@ -9,7 +9,7 @@ tags:
 - azure-functions
 - openapi
 - github-actions
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2022/02/generating-openapi-document-from-azure-functions-within-cicd-pipeline-00.png
+cover: /2022/02/generating-openapi-document-from-azure-functions-within-cicd-pipeline-00.png
 fullscreen: true
 ---
 

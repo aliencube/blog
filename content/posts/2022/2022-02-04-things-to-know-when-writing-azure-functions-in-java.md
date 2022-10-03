@@ -9,7 +9,7 @@ tags:
 - azure-functions
 - java
 - intellij-idea
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2022/02/things-to-know-when-writing-azure-functions-in-java-00.png
+cover: /2022/02/things-to-know-when-writing-azure-functions-in-java-00.png
 fullscreen: true
 ---
 
@@ -120,16 +120,16 @@ https://gist.github.com/justinyoo/a41dc3bb8c19141f3844f214593956c8?file=03-funct
 지금까지 자바로 애저 펑션을 개발할 때 맥OS 환경에서 발생하는 이슈와 해결 방법, 그리고 애저로 배포할 때 생기는 이슈와 해결 방법에 대해 논의해 봤다. 본격적으로 애저 펑션을 자바로 개발하다 보면 더 많은 이슈를 찾을 수도 있겠지만, 기본적으로 이정도를 대비하고 있으면 맥 환경에서 애저 펑션 앱을 자바로 개발하는 데 있어서 큰 무리는 없을 것으로 판단한다.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2022/02/things-to-know-when-writing-azure-functions-in-java-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2022/02/things-to-know-when-writing-azure-functions-in-java-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2022/02/things-to-know-when-writing-azure-functions-in-java-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/aliencube/2022/02/things-to-know-when-writing-azure-functions-in-java-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/aliencube/2022/02/things-to-know-when-writing-azure-functions-in-java-05.png
-[image-06]: https://sa0blogs.blob.core.windows.net/aliencube/2022/02/things-to-know-when-writing-azure-functions-in-java-06.png
-[image-07]: https://sa0blogs.blob.core.windows.net/aliencube/2022/02/things-to-know-when-writing-azure-functions-in-java-07.png
-[image-08]: https://sa0blogs.blob.core.windows.net/aliencube/2022/02/things-to-know-when-writing-azure-functions-in-java-08.png
-[image-09]: https://sa0blogs.blob.core.windows.net/aliencube/2022/02/things-to-know-when-writing-azure-functions-in-java-09.png
-[image-10]: https://sa0blogs.blob.core.windows.net/aliencube/2022/02/things-to-know-when-writing-azure-functions-in-java-10.png
+[image-01]: /2022/02/things-to-know-when-writing-azure-functions-in-java-01.png
+[image-02]: /2022/02/things-to-know-when-writing-azure-functions-in-java-02.png
+[image-03]: /2022/02/things-to-know-when-writing-azure-functions-in-java-03.png
+[image-04]: /2022/02/things-to-know-when-writing-azure-functions-in-java-04.png
+[image-05]: /2022/02/things-to-know-when-writing-azure-functions-in-java-05.png
+[image-06]: /2022/02/things-to-know-when-writing-azure-functions-in-java-06.png
+[image-07]: /2022/02/things-to-know-when-writing-azure-functions-in-java-07.png
+[image-08]: /2022/02/things-to-know-when-writing-azure-functions-in-java-08.png
+[image-09]: /2022/02/things-to-know-when-writing-azure-functions-in-java-09.png
+[image-10]: /2022/02/things-to-know-when-writing-azure-functions-in-java-10.png
 
 
 [gh sample]: https://github.com/fusiondevkr/fusiondevkr

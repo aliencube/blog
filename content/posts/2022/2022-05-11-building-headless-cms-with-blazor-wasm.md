@@ -9,7 +9,7 @@ tags:
 - blazor-wasm
 - staticwebapps
 - headless-cms
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2022/05/building-headless-cms-with-blazor-wasm-00.png
+cover: /2022/05/building-headless-cms-with-blazor-wasm-00.png
 fullscreen: true
 ---
 
@@ -314,19 +314,19 @@ else
 지금까지 서비스형 워드프레스를 헤드리스 CMS로 이용해서 [애저 정적 웹 앱][az swa]에 [블레이저 웹어셈블리][blazor wasm]와 [애저 펑션][az fncapp] 프록시 API를 통해 웹사이트를 구현하는 방법에 대해 알아보았다. 이 포스트에서는 간단한 컨셉 정도만을 구현했지만, 기본적인 큰 틀은 다 구현을 해봤기 때문에 적절한 API 호출과 UI 레이아웃만 구성한다면, 기존의 서비스형 워드프레스를 그대로 사용한 채로 나만의 멋진 블로그 사이트를 운영할 수도 있을 것이다.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2022/05/building-headless-cms-with-blazor-wasm-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2022/05/building-headless-cms-with-blazor-wasm-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2022/05/building-headless-cms-with-blazor-wasm-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/aliencube/2022/05/building-headless-cms-with-blazor-wasm-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/aliencube/2022/05/building-headless-cms-with-blazor-wasm-05.png
-[image-06]: https://sa0blogs.blob.core.windows.net/aliencube/2022/05/building-headless-cms-with-blazor-wasm-06.png
-[image-07]: https://sa0blogs.blob.core.windows.net/aliencube/2022/05/building-headless-cms-with-blazor-wasm-07.png
-[image-08]: https://sa0blogs.blob.core.windows.net/aliencube/2022/05/building-headless-cms-with-blazor-wasm-08.png
-[image-09]: https://sa0blogs.blob.core.windows.net/aliencube/2022/05/building-headless-cms-with-blazor-wasm-09.png
-[image-10]: https://sa0blogs.blob.core.windows.net/aliencube/2022/05/building-headless-cms-with-blazor-wasm-10.png
-[image-11]: https://sa0blogs.blob.core.windows.net/aliencube/2022/05/building-headless-cms-with-blazor-wasm-11.png
-[image-12]: https://sa0blogs.blob.core.windows.net/aliencube/2022/05/building-headless-cms-with-blazor-wasm-12.png
-[image-13]: https://sa0blogs.blob.core.windows.net/aliencube/2022/05/building-headless-cms-with-blazor-wasm-13.png
+[image-01]: /2022/05/building-headless-cms-with-blazor-wasm-01.png
+[image-02]: /2022/05/building-headless-cms-with-blazor-wasm-02.png
+[image-03]: /2022/05/building-headless-cms-with-blazor-wasm-03.png
+[image-04]: /2022/05/building-headless-cms-with-blazor-wasm-04.png
+[image-05]: /2022/05/building-headless-cms-with-blazor-wasm-05.png
+[image-06]: /2022/05/building-headless-cms-with-blazor-wasm-06.png
+[image-07]: /2022/05/building-headless-cms-with-blazor-wasm-07.png
+[image-08]: /2022/05/building-headless-cms-with-blazor-wasm-08.png
+[image-09]: /2022/05/building-headless-cms-with-blazor-wasm-09.png
+[image-10]: /2022/05/building-headless-cms-with-blazor-wasm-10.png
+[image-11]: /2022/05/building-headless-cms-with-blazor-wasm-11.png
+[image-12]: /2022/05/building-headless-cms-with-blazor-wasm-12.png
+[image-13]: /2022/05/building-headless-cms-with-blazor-wasm-13.png
 
 
 [post-1]: /ko/2020/06/17/hosting-blazor-web-assembly-app-on-azure-static-webapp/

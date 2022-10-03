@@ -9,7 +9,7 @@ tags:
 - autopilot
 - github-actions
 - developer-experience
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2022/03/azure-apps-autopilot-00.png
+cover: /2022/03/azure-apps-autopilot-00.png
 fullscreen: true
 ---
 
@@ -658,14 +658,14 @@ az ad sp create-for-rbac \
 지금까지 애저 리소스 프로비저닝 및 앱 배포와 관련한 오토파일럿 기능을 [깃헙 액션][gh actions]의 다양한 이벤트 트리거와 [애저 bicep][az bicep]을 활용해서 구현해 보았다. 이를 활용하면 PoC 애플리케이션을 만들어서 고객에게 데모를 보여준다거나 할 때, 누구든 깃헙 리포지토리만 접근할 수 있다면 별도의 지식이 없이도 스스로 리소스를 만들고 앱을 배포할 수 있게 될 것이다. [다음 포스트][post 2]에서는 실제로 애저 bicep의 [배포 스크립트][az bicep deploymentscript] 기능을 활용해서 오토파일럿을 구현해 보기로 한다.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2022/03/azure-apps-autopilot-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2022/03/azure-apps-autopilot-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2022/03/azure-apps-autopilot-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/aliencube/2022/03/azure-apps-autopilot-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/aliencube/2022/03/azure-apps-autopilot-05.png
-[image-06]: https://sa0blogs.blob.core.windows.net/aliencube/2022/03/azure-apps-autopilot-06.png
-[image-07]: https://sa0blogs.blob.core.windows.net/aliencube/2022/03/azure-apps-autopilot-07.png
-[image-08]: https://sa0blogs.blob.core.windows.net/aliencube/2022/03/azure-apps-autopilot-08.png
+[image-01]: /2022/03/azure-apps-autopilot-01.png
+[image-02]: /2022/03/azure-apps-autopilot-02.png
+[image-03]: /2022/03/azure-apps-autopilot-03.png
+[image-04]: /2022/03/azure-apps-autopilot-04.png
+[image-05]: /2022/03/azure-apps-autopilot-05.png
+[image-06]: /2022/03/azure-apps-autopilot-06.png
+[image-07]: /2022/03/azure-apps-autopilot-07.png
+[image-08]: /2022/03/azure-apps-autopilot-08.png
 
 
 [post 1]: /ko/2022/03/11/azure-apps-autopilot/

@@ -9,7 +9,7 @@ tags:
 - blazor-wasm
 - browser-extension
 - cross-browser
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2022/08/lift-and-shift-existing-chrome-extension-to-blazor-wasm-3-00.png
+cover: /2022/08/lift-and-shift-existing-chrome-extension-to-blazor-wasm-3-00.png
 fullscreen: true
 ---
 
@@ -488,10 +488,10 @@ Compress-Archive -Path ./published/wwwroot/* -DestinationPath ./published/wwwroo
 * [블레이저 Learn][blazor learn] (한국어)
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2022/08/lift-and-shift-existing-chrome-extension-to-blazor-wasm-3-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2022/08/lift-and-shift-existing-chrome-extension-to-blazor-wasm-3-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2022/08/lift-and-shift-existing-chrome-extension-to-blazor-wasm-3-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/aliencube/2022/08/lift-and-shift-existing-chrome-extension-to-blazor-wasm-3-04.png
+[image-01]: /2022/08/lift-and-shift-existing-chrome-extension-to-blazor-wasm-3-01.png
+[image-02]: /2022/08/lift-and-shift-existing-chrome-extension-to-blazor-wasm-3-02.png
+[image-03]: /2022/08/lift-and-shift-existing-chrome-extension-to-blazor-wasm-3-03.png
+[image-04]: /2022/08/lift-and-shift-existing-chrome-extension-to-blazor-wasm-3-04.png
 
 
 [post 1]: /ko/2022/07/08/lift-and-shift-existing-chrome-extension-to-blazor-wasm/

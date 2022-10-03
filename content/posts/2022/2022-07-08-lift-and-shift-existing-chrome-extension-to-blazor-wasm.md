@@ -9,7 +9,7 @@ tags:
 - blazor-wasm
 - chrome-extension
 - migration
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-00.png
+cover: /2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-00.png
 fullscreen: true
 ---
 
@@ -303,24 +303,24 @@ Update-FileContent `
 * [블레이저 Learn][blazor learn] (한국어)
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-02-ko.png
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-03-ko.png
-[image-04]: https://sa0blogs.blob.core.windows.net/aliencube/2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/aliencube/2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-05.png
-[image-06]: https://sa0blogs.blob.core.windows.net/aliencube/2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-06.png
-[image-07]: https://sa0blogs.blob.core.windows.net/aliencube/2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-07.png
-[image-08]: https://sa0blogs.blob.core.windows.net/aliencube/2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-08.png
-[image-09]: https://sa0blogs.blob.core.windows.net/aliencube/2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-09.png
-[image-10]: https://sa0blogs.blob.core.windows.net/aliencube/2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-10.png
-[image-11]: https://sa0blogs.blob.core.windows.net/aliencube/2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-11-ko.png
-[image-12]: https://sa0blogs.blob.core.windows.net/aliencube/2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-12.png
-[image-13]: https://sa0blogs.blob.core.windows.net/aliencube/2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-13-ko.png
-[image-14]: https://sa0blogs.blob.core.windows.net/aliencube/2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-14.png
-[image-15]: https://sa0blogs.blob.core.windows.net/aliencube/2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-15-ko.png
-[image-16]: https://sa0blogs.blob.core.windows.net/aliencube/2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-16-ko.png
-[image-17]: https://sa0blogs.blob.core.windows.net/aliencube/2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-17-ko.png
-[image-18]: https://sa0blogs.blob.core.windows.net/aliencube/2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-18-ko.png
+[image-01]: /2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-01.png
+[image-02]: /2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-02-ko.png
+[image-03]: /2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-03-ko.png
+[image-04]: /2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-04.png
+[image-05]: /2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-05.png
+[image-06]: /2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-06.png
+[image-07]: /2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-07.png
+[image-08]: /2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-08.png
+[image-09]: /2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-09.png
+[image-10]: /2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-10.png
+[image-11]: /2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-11-ko.png
+[image-12]: /2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-12.png
+[image-13]: /2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-13-ko.png
+[image-14]: /2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-14.png
+[image-15]: /2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-15-ko.png
+[image-16]: /2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-16-ko.png
+[image-17]: /2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-17-ko.png
+[image-18]: /2022/07/lift-and-shift-existing-chrome-extension-to-blazor-wasm-18-ko.png
 
 
 [post 1]: /ko/2022/07/08/lift-and-shift-existing-chrome-extension-to-blazor-wasm/

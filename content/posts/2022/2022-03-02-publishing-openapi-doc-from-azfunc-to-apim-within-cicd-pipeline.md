@@ -9,7 +9,7 @@ tags:
 - azure-functions
 - openapi
 - azure-api-management
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2022/03/publishing-openapi-doc-from-azfunc-to-apim-within-cicd-pipeline-00.png
+cover: /2022/03/publishing-openapi-doc-from-azfunc-to-apim-within-cicd-pipeline-00.png
 fullscreen: true
 ---
 

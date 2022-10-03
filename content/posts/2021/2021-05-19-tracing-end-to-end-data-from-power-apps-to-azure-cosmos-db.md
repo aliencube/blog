@@ -9,7 +9,7 @@ tags:
 - observability
 - traceability
 - open-telemetry
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2021/05/tracing-end-to-end-data-from-power-apps-to-azure-cosmos-db-00.png
+cover: /2021/05/tracing-end-to-end-data-from-power-apps-to-azure-cosmos-db-00.png
 fullscreen: true
 ---
 
@@ -142,12 +142,12 @@ https://gist.github.com/justinyoo/9679433b6d886897cc09d8bcf1c8b6de?file=06-kusto
 다음 포스트에서는 파워 앱을 DevOps 기법을 이용해 배포 자동화 하는 방법을 살펴보기로 한다.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2021/05/tracing-end-to-end-data-from-power-apps-to-azure-cosmos-db-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2021/05/tracing-end-to-end-data-from-power-apps-to-azure-cosmos-db-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2021/05/tracing-end-to-end-data-from-power-apps-to-azure-cosmos-db-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/aliencube/2021/05/tracing-end-to-end-data-from-power-apps-to-azure-cosmos-db-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/aliencube/2021/05/tracing-end-to-end-data-from-power-apps-to-azure-cosmos-db-05.png
-[image-06]: https://sa0blogs.blob.core.windows.net/aliencube/2021/05/tracing-end-to-end-data-from-power-apps-to-azure-cosmos-db-06.png
+[image-01]: /2021/05/tracing-end-to-end-data-from-power-apps-to-azure-cosmos-db-01.png
+[image-02]: /2021/05/tracing-end-to-end-data-from-power-apps-to-azure-cosmos-db-02.png
+[image-03]: /2021/05/tracing-end-to-end-data-from-power-apps-to-azure-cosmos-db-03.png
+[image-04]: /2021/05/tracing-end-to-end-data-from-power-apps-to-azure-cosmos-db-04.png
+[image-05]: /2021/05/tracing-end-to-end-data-from-power-apps-to-azure-cosmos-db-05.png
+[image-06]: /2021/05/tracing-end-to-end-data-from-power-apps-to-azure-cosmos-db-06.png
 
 
 [post 1]: /ko/2021/05/12/power-apps-in-fusion-teams/

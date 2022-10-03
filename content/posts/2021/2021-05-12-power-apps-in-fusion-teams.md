@@ -9,7 +9,7 @@ tags:
 - power-apps
 - azure
 - serverless
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2021/05/power-apps-in-fusion-teams-00.jpg
+cover: /2021/05/power-apps-in-fusion-teams-00.jpg
 fullscreen: true
 ---
 
@@ -131,20 +131,20 @@ CORS 설정이 끝난 후 파워 앱 스튜디오로 돌아와서 다시 사용�
 이렇게 함으로써 회원과 피트니스 센터 모두에게 좀 더 나은 서비스를 제공할 수 있는 기반이 다져진 셈이다. [다음 포스트][post 2]에서는 [애저 모니터][az monitor] 서비스를 이용해 파워 앱에서 데이터 저장소까지 데이터가 이동하면서 거쳐가는 경로들을 추적하는 과정에 대해 알아보기로 한다.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2021/05/power-apps-in-fusion-teams-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2021/05/power-apps-in-fusion-teams-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2021/05/power-apps-in-fusion-teams-03-ko.png
-[image-04]: https://sa0blogs.blob.core.windows.net/aliencube/2021/05/power-apps-in-fusion-teams-04-ko.png
-[image-05]: https://sa0blogs.blob.core.windows.net/aliencube/2021/05/power-apps-in-fusion-teams-05-ko.png
-[image-06]: https://sa0blogs.blob.core.windows.net/aliencube/2021/05/power-apps-in-fusion-teams-06-ko.png
-[image-07]: https://sa0blogs.blob.core.windows.net/aliencube/2021/05/power-apps-in-fusion-teams-07-ko.png
-[image-08]: https://sa0blogs.blob.core.windows.net/aliencube/2021/05/power-apps-in-fusion-teams-08-ko.png
-[image-09]: https://sa0blogs.blob.core.windows.net/aliencube/2021/05/power-apps-in-fusion-teams-09-ko.png
-[image-10]: https://sa0blogs.blob.core.windows.net/aliencube/2021/05/power-apps-in-fusion-teams-10-ko.png
-[image-11]: https://sa0blogs.blob.core.windows.net/aliencube/2021/05/power-apps-in-fusion-teams-11.png
-[image-12]: https://sa0blogs.blob.core.windows.net/aliencube/2021/05/power-apps-in-fusion-teams-12.png
-[image-13]: https://sa0blogs.blob.core.windows.net/aliencube/2021/05/power-apps-in-fusion-teams-13.png
-[image-14]: https://sa0blogs.blob.core.windows.net/aliencube/2021/05/power-apps-in-fusion-teams-14.png
+[image-01]: /2021/05/power-apps-in-fusion-teams-01.png
+[image-02]: /2021/05/power-apps-in-fusion-teams-02.png
+[image-03]: /2021/05/power-apps-in-fusion-teams-03-ko.png
+[image-04]: /2021/05/power-apps-in-fusion-teams-04-ko.png
+[image-05]: /2021/05/power-apps-in-fusion-teams-05-ko.png
+[image-06]: /2021/05/power-apps-in-fusion-teams-06-ko.png
+[image-07]: /2021/05/power-apps-in-fusion-teams-07-ko.png
+[image-08]: /2021/05/power-apps-in-fusion-teams-08-ko.png
+[image-09]: /2021/05/power-apps-in-fusion-teams-09-ko.png
+[image-10]: /2021/05/power-apps-in-fusion-teams-10-ko.png
+[image-11]: /2021/05/power-apps-in-fusion-teams-11.png
+[image-12]: /2021/05/power-apps-in-fusion-teams-12.png
+[image-13]: /2021/05/power-apps-in-fusion-teams-13.png
+[image-14]: /2021/05/power-apps-in-fusion-teams-14.png
 
 
 [post 1]: /ko/2021/05/12/power-apps-in-fusion-teams/

@@ -9,7 +9,7 @@ tags:
 - azure-eventgrid
 - cloudevents
 - azure-sdk
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2021/01/dealing-cloudevents-with-azure-functions-for-azure-eventgrid-00.png
+cover: /2021/01/dealing-cloudevents-with-azure-functions-for-azure-eventgrid-00.png
 fullscreen: true
 ---
 

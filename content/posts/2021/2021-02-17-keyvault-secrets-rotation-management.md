@@ -9,7 +9,7 @@ tags:
 - azure-functions
 - azure-sdk
 - secret-management
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2021/02/keyvault-secrets-rotation-management-00.png
+cover: /2021/02/keyvault-secrets-rotation-management-00.png
 fullscreen: true
 ---
 

@@ -9,7 +9,7 @@ tags:
 - websub
 - cloudevents
 - azure-logic-apps
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-00-ko.png
+cover: /2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-00-ko.png
 fullscreen: true
 ---
 
@@ -188,20 +188,20 @@ https://gist.github.com/justinyoo/cb04844306f9a44dcdcaaa70a6a55326?file=10-video
 만약 이런 온라인 컨텐츠 마케팅을 기획하고 있다면 이런 형태로 애플리케이션을 구현해 보는 것도 좋은 시도가 될 것이다. 또한, 이를 통해 전체적인 클라우드 시스템 아키텍처를 구성하는 방법에 대해서도 고민해 볼 수 있을 것이다.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-02-ko.png
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/aliencube/2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/aliencube/2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-05-ko.png
-[image-06]: https://sa0blogs.blob.core.windows.net/aliencube/2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-06.png
-[image-07]: https://sa0blogs.blob.core.windows.net/aliencube/2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-07.png
-[image-08]: https://sa0blogs.blob.core.windows.net/aliencube/2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-08-ko.png
-[image-09]: https://sa0blogs.blob.core.windows.net/aliencube/2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-09.png
-[image-10]: https://sa0blogs.blob.core.windows.net/aliencube/2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-10.png
-[image-11]: https://sa0blogs.blob.core.windows.net/aliencube/2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-11.png
-[image-12]: https://sa0blogs.blob.core.windows.net/aliencube/2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-12.png
-[image-13]: https://sa0blogs.blob.core.windows.net/aliencube/2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-13-ko.png
-[image-14]: https://sa0blogs.blob.core.windows.net/aliencube/2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-14.png
+[image-01]: /2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-01.png
+[image-02]: /2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-02-ko.png
+[image-03]: /2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-03.png
+[image-04]: /2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-04.png
+[image-05]: /2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-05-ko.png
+[image-06]: /2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-06.png
+[image-07]: /2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-07.png
+[image-08]: /2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-08-ko.png
+[image-09]: /2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-09.png
+[image-10]: /2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-10.png
+[image-11]: /2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-11.png
+[image-12]: /2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-12.png
+[image-13]: /2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-13-ko.png
+[image-14]: /2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-14.png
 
 
 [post prev 1]: /ko/2021/01/13/dealing-cloudevents-with-azure-functions-for-azure-eventgrid/

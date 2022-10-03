@@ -9,7 +9,7 @@ tags:
 - azure-logic-apps
 - azure-eventgrid
 - github-actions
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2021/01/provisioning-eventgrid-subscription-and-logicapp-handler-using-azure-cli-00.png
+cover: /2021/01/provisioning-eventgrid-subscription-and-logicapp-handler-using-azure-cli-00.png
 fullscreen: true
 ---
 
@@ -112,9 +112,9 @@ https://gist.github.com/justinyoo/8865213b31baeda9f7c1ad258351a039?file=05-one-l
 
 
 [image-01]: https://docs.microsoft.com/ko-kr/azure/event-grid/media/overview/functional-model.png?WT.mc_id=devops-12244-juyoo
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2021/01/provisioning-eventgrid-subscription-and-logicapp-handler-using-azure-cli-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2021/01/provisioning-eventgrid-subscription-and-logicapp-handler-using-azure-cli-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/aliencube/2021/01/provisioning-eventgrid-subscription-and-logicapp-handler-using-azure-cli-04.png
+[image-02]: /2021/01/provisioning-eventgrid-subscription-and-logicapp-handler-using-azure-cli-02.png
+[image-03]: /2021/01/provisioning-eventgrid-subscription-and-logicapp-handler-using-azure-cli-03.png
+[image-04]: /2021/01/provisioning-eventgrid-subscription-and-logicapp-handler-using-azure-cli-04.png
 
 [az cli]: https://docs.microsoft.com/ko-kr/cli/azure/what-is-azure-cli?WT.mc_id=devops-12244-juyoo
 [az cli extensions]: https://docs.microsoft.com/ko-kr/cli/azure/azure-cli-extensions-list?WT.mc_id=devops-12244-juyoo

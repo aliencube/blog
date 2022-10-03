@@ -10,7 +10,7 @@ tags:
 - azure-logic-apps
 - azure-functions
 - azure-sdk
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2021/02/event-driven-keyvault-secrets-rotation-management-00.png
+cover: /2021/02/event-driven-keyvault-secrets-rotation-management-00.png
 fullscreen: true
 ---
 
@@ -144,18 +144,18 @@ https://gist.github.com/justinyoo/948385359cc739a48ad5afdf07db932e?file=02-disab
 지금까지 [애저 키 저장소][az kv] 인스턴스에 새 [시크릿][az kv secrets] 버전이 추가되는 이벤트를 캡쳐해서 해당 시크릿만 대상으로 [버전 로테이션 관리][az kv secrets rotation]를 하는 방법을 [애저 이벤트그리드][az evtgrd], [애저 로직 앱][az logapp], [애저 펑션][az fncapp]을 이용해서 구현해 보았다. 여러분의 실무에서도 이와 비슷한 방식으로 이벤트를 캡쳐해서 처리하게 하는 방식을 도입해 본다면 꽤 유용할 것이다.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2021/02/event-driven-keyvault-secrets-rotation-management-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2021/02/event-driven-keyvault-secrets-rotation-management-02-ko.png
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2021/02/event-driven-keyvault-secrets-rotation-management-03-ko.png
-[image-04]: https://sa0blogs.blob.core.windows.net/aliencube/2021/02/event-driven-keyvault-secrets-rotation-management-04-ko.png
-[image-05]: https://sa0blogs.blob.core.windows.net/aliencube/2021/02/event-driven-keyvault-secrets-rotation-management-05-ko.png
-[image-06]: https://sa0blogs.blob.core.windows.net/aliencube/2021/02/event-driven-keyvault-secrets-rotation-management-06-ko.png
-[image-07]: https://sa0blogs.blob.core.windows.net/aliencube/2021/02/event-driven-keyvault-secrets-rotation-management-07-ko.png
-[image-08]: https://sa0blogs.blob.core.windows.net/aliencube/2021/02/event-driven-keyvault-secrets-rotation-management-08-ko.png
-[image-09]: https://sa0blogs.blob.core.windows.net/aliencube/2021/02/event-driven-keyvault-secrets-rotation-management-09-ko.png
-[image-10]: https://sa0blogs.blob.core.windows.net/aliencube/2021/02/event-driven-keyvault-secrets-rotation-management-10-ko.png
-[image-11]: https://sa0blogs.blob.core.windows.net/aliencube/2021/02/event-driven-keyvault-secrets-rotation-management-11-ko.png
-[image-12]: https://sa0blogs.blob.core.windows.net/aliencube/2021/02/event-driven-keyvault-secrets-rotation-management-12-ko.png
+[image-01]: /2021/02/event-driven-keyvault-secrets-rotation-management-01.png
+[image-02]: /2021/02/event-driven-keyvault-secrets-rotation-management-02-ko.png
+[image-03]: /2021/02/event-driven-keyvault-secrets-rotation-management-03-ko.png
+[image-04]: /2021/02/event-driven-keyvault-secrets-rotation-management-04-ko.png
+[image-05]: /2021/02/event-driven-keyvault-secrets-rotation-management-05-ko.png
+[image-06]: /2021/02/event-driven-keyvault-secrets-rotation-management-06-ko.png
+[image-07]: /2021/02/event-driven-keyvault-secrets-rotation-management-07-ko.png
+[image-08]: /2021/02/event-driven-keyvault-secrets-rotation-management-08-ko.png
+[image-09]: /2021/02/event-driven-keyvault-secrets-rotation-management-09-ko.png
+[image-10]: /2021/02/event-driven-keyvault-secrets-rotation-management-10-ko.png
+[image-11]: /2021/02/event-driven-keyvault-secrets-rotation-management-11-ko.png
+[image-12]: /2021/02/event-driven-keyvault-secrets-rotation-management-12-ko.png
 
 [post prev 1]: /ko/2021/02/17/keyvault-secrets-rotation-management/
 [post prev 2]: /ko/2021/01/27/websub-to-eventgrid-via-cloudevents-and-beyond/

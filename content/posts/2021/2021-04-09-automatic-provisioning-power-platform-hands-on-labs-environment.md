@@ -9,7 +9,7 @@ tags:
 - microsoft365
 - provisioning
 - powershell
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2021/04/automatic-provisioning-power-platform-hands-on-labs-environment-00.png
+cover: /2021/04/automatic-provisioning-power-platform-hands-on-labs-environment-00.png
 fullscreen: true
 ---
 
@@ -186,11 +186,11 @@ https://gist.github.com/justinyoo/4cba9e122dfdb5684cd432c072b36b3d?file=14-new-a
 지금까지 파워 플랫폼 핸즈온 실습을 위한 모든 환경 설정을 파워셸 스크립트로 구성했다. 이제 핸즈온 실습 일정이 잡힐 경우 이 파워셸 스크립트만 실행시키면 짧은 시간 안에 모든 구성을 끝마치고 준비할 수 있을 것이다.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2021/04/automatic-provisioning-power-platform-hands-on-labs-environment-01-ko.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2021/04/automatic-provisioning-power-platform-hands-on-labs-environment-02-ko.png
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2021/04/automatic-provisioning-power-platform-hands-on-labs-environment-03-ko.png
-[image-04]: https://sa0blogs.blob.core.windows.net/aliencube/2021/04/automatic-provisioning-power-platform-hands-on-labs-environment-04-ko.png
-[image-05]: https://sa0blogs.blob.core.windows.net/aliencube/2021/04/automatic-provisioning-power-platform-hands-on-labs-environment-05-ko.png
+[image-01]: /2021/04/automatic-provisioning-power-platform-hands-on-labs-environment-01-ko.png
+[image-02]: /2021/04/automatic-provisioning-power-platform-hands-on-labs-environment-02-ko.png
+[image-03]: /2021/04/automatic-provisioning-power-platform-hands-on-labs-environment-03-ko.png
+[image-04]: /2021/04/automatic-provisioning-power-platform-hands-on-labs-environment-04-ko.png
+[image-05]: /2021/04/automatic-provisioning-power-platform-hands-on-labs-environment-05-ko.png
 
 [gh sample]: https://github.com/devkimchi/PowerPlatform-Hands-on-Lab-Environment-Automatic-Provsioning
 [gh sample code]: https://github.com/devkimchi/PowerPlatform-Hands-on-Lab-Environment-Automatic-Provsioning/blob/main/AzureAD/Set-Environment.ps1

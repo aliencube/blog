@@ -9,7 +9,7 @@ tags:
 - bicep
 - arm
 - update
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2021/04/bicep-refreshed-00.png
+cover: /2021/04/bicep-refreshed-00.png
 fullscreen: true
 ---
 

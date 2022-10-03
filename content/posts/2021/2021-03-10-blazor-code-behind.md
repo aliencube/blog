@@ -9,7 +9,7 @@ tags:
 - blazor-webassembly
 - code-behind
 - separate-of-concerns
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2021/03/blazor-code-behind-00.png
+cover: /2021/03/blazor-code-behind-00.png
 fullscreen: true
 ---
 
@@ -87,8 +87,8 @@ https://gist.github.com/justinyoo/adf1539f817c4b604c5cedc421e96aed?file=10-count
 지금까지 블레이저 앱에서 HTML과 코드를 분리하는 방법에 대해 알아보았다. 사실, 이 포스트는 어떤 특별힌 트릭이나 팁을 제공한다기 보다는 효율적인 개발을 위해 코드와 UI를 분리하는 방법에 대해 기술한 것이다. 그리고, 만약 [ASP.NET WebForm][aspnet webform]에서 [블레이저][blazor]로 이전을 고려하고 있고, 기존의 개발 경험을 최대한 유지하고 싶다면 WebForm의 [코드 비하인드 모델][aspnet webform codebehind]을 블레이저에서도 거의 동일하게 적용시킬 수 있으니 적극적으로 활용해 보길 바란다.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2021/03/blazor-code-behind-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2021/03/blazor-code-behind-02.png
+[image-01]: /2021/03/blazor-code-behind-01.png
+[image-02]: /2021/03/blazor-code-behind-02.png
 
 [gh sample]: https://github.com/devkimchi/Blazor-Code-Behind-Sample
 

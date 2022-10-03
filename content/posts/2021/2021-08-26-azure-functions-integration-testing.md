@@ -9,7 +9,7 @@ tags:
 - azure-functions
 - integration-testing
 - github-actions
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2021/08/azure-functions-integration-testing-00.png
+cover: /2021/08/azure-functions-integration-testing-00.png
 fullscreen: true
 ---
 
@@ -109,8 +109,8 @@ https://gist.github.com/justinyoo/d00aefe95ff7a5292121fc06b604cfad?file=08-build
 지금까지 [애저 펑션][az fncapp] 앱을 로컬에서 [애저 펑션 CLI][az fncapp cli]를 이용해 [깃헙 액션][gha] 워크플로우 안에서 백그라운드 프로세스로 실행시켜 통합 테스트, 종단간 테스트를 진행하는 방법에 대해 알아보았다. 이를 이용하면 굳이 종단간 테스트를 위해 애저에 인스턴스를 만들고 배포하기 전에 파이프라인 상에서 미리 테스트를 통해 결과값을 예상할 수 있을 것이다.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2021/08/azure-functions-integration-testing-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2021/08/azure-functions-integration-testing-02.png
+[image-01]: /2021/08/azure-functions-integration-testing-01.png
+[image-02]: /2021/08/azure-functions-integration-testing-02.png
 
 
 [post 1]: /ko/2019/08/07/azure-functions-integration-testing-with-mountebank/

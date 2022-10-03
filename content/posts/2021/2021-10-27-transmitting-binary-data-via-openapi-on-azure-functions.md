@@ -9,7 +9,7 @@ tags:
 - openapi
 - binary-data
 - byte-array
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2021/10/transmitting-binary-data-via-openapi-on-azure-functions-00.png
+cover: /2021/10/transmitting-binary-data-via-openapi-on-azure-functions-00.png
 fullscreen: true
 ---
 
@@ -52,8 +52,8 @@ https://gist.github.com/justinyoo/9d875913235af8b7636810e888fb0013?file=04-run-m
 지금까지 애저 펑션의 OpenAPI 확장 기능을 이용해 바이너리 데이터 형식을 정의하고, 이를 Swagger UI 페이지를 이용해 직접 전송해 보는 방법에 대해 알아보았다. 가장 기다려왔던 기능이 이번 릴리즈로 해결된 만큼 많은 곳에서 활용할 수 있기를 바란다.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2021/10/transmitting-binary-data-via-openapi-on-azure-functions-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2021/10/transmitting-binary-data-via-openapi-on-azure-functions-02.png
+[image-01]: /2021/10/transmitting-binary-data-via-openapi-on-azure-functions-01.png
+[image-02]: /2021/10/transmitting-binary-data-via-openapi-on-azure-functions-02.png
 
 
 [gh sample]: https://github.com/devkimchi/azure-functions-binary-data-via-swagger-ui

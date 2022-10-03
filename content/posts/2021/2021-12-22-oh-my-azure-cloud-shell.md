@@ -9,7 +9,7 @@ tags:
 - azure-cloud-shell
 - oh-my-zsh
 - oh-my-posh
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2021/12/oh-my-azure-cloud-shell-00.png
+cover: /2021/12/oh-my-azure-cloud-shell-00.png
 fullscreen: true
 ---
 

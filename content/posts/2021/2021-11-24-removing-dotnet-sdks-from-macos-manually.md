@@ -9,7 +9,7 @@ tags:
 - dotnet-sdk
 - macos
 - installation
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2021/11/removing-dotnet-sdks-from-macos-manually-00.png
+cover: /2021/11/removing-dotnet-sdks-from-macos-manually-00.png
 fullscreen: true
 ---
 
@@ -78,9 +78,9 @@ https://gist.github.com/justinyoo/68c11fa00480fa15d38f7288815c6ba5?file=03-remov
 지금까지 맥OS에서 .NET SDK 및 런타임을 수동으로 삭제하는 방법에 대해 알아보았다. 별 문제가 없다면 굳이 삭제하지 않아도 상관없지만, 만일의 경우 수동으로 삭제해야 하는 상황이 생긴다면 위에 언급한 방법을 이용해 보면 좋을 것이다.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2021/11/removing-dotnet-sdks-from-macos-manually-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2021/11/removing-dotnet-sdks-from-macos-manually-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2021/11/removing-dotnet-sdks-from-macos-manually-03.png
+[image-01]: /2021/11/removing-dotnet-sdks-from-macos-manually-01.png
+[image-02]: /2021/11/removing-dotnet-sdks-from-macos-manually-02.png
+[image-03]: /2021/11/removing-dotnet-sdks-from-macos-manually-03.png
 
 
 [dotnet check]: https://docs.microsoft.com/ko-kr/dotnet/core/install/how-to-detect-installed-versions?pivots=os-macos&WT.mc_id=dotnet-50035-juyoo&ocid=AID3035186

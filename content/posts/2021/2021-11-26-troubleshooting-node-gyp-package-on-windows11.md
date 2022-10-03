@@ -9,7 +9,7 @@ tags:
 - nodejs
 - node-gyp
 - troubleshooting
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2021/11/troubleshooting-node-gyp-package-on-windows11-00.png
+cover: /2021/11/troubleshooting-node-gyp-package-on-windows11-00.png
 fullscreen: true
 ---
 
@@ -159,22 +159,22 @@ npm config set msvs_version 2022
 지금까지 윈도우 11 환경에서 node.js 앱을 개발할 때 흔히 겪는 `node-gyp` 이슈를 해결하는 방법에 대해 알아보았다. 앱 개발에 도움이 될 수 있기를 희망한다.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2021/11/troubleshooting-node-gyp-package-on-windows11-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2021/11/troubleshooting-node-gyp-package-on-windows11-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2021/11/troubleshooting-node-gyp-package-on-windows11-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/aliencube/2021/11/troubleshooting-node-gyp-package-on-windows11-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/aliencube/2021/11/troubleshooting-node-gyp-package-on-windows11-05.png
-[image-06]: https://sa0blogs.blob.core.windows.net/aliencube/2021/11/troubleshooting-node-gyp-package-on-windows11-06.png
-[image-07]: https://sa0blogs.blob.core.windows.net/aliencube/2021/11/troubleshooting-node-gyp-package-on-windows11-07.png
-[image-08]: https://sa0blogs.blob.core.windows.net/aliencube/2021/11/troubleshooting-node-gyp-package-on-windows11-08.png
-[image-09]: https://sa0blogs.blob.core.windows.net/aliencube/2021/11/troubleshooting-node-gyp-package-on-windows11-09.png
-[image-10]: https://sa0blogs.blob.core.windows.net/aliencube/2021/11/troubleshooting-node-gyp-package-on-windows11-10.png
-[image-11]: https://sa0blogs.blob.core.windows.net/aliencube/2021/11/troubleshooting-node-gyp-package-on-windows11-11.png
-[image-12]: https://sa0blogs.blob.core.windows.net/aliencube/2021/11/troubleshooting-node-gyp-package-on-windows11-12.png
-[image-13]: https://sa0blogs.blob.core.windows.net/aliencube/2021/11/troubleshooting-node-gyp-package-on-windows11-13.png
-[image-14]: https://sa0blogs.blob.core.windows.net/aliencube/2021/11/troubleshooting-node-gyp-package-on-windows11-14.png
-[image-15]: https://sa0blogs.blob.core.windows.net/aliencube/2021/11/troubleshooting-node-gyp-package-on-windows11-15.png
-[image-16]: https://sa0blogs.blob.core.windows.net/aliencube/2021/11/troubleshooting-node-gyp-package-on-windows11-16.png
+[image-01]: /2021/11/troubleshooting-node-gyp-package-on-windows11-01.png
+[image-02]: /2021/11/troubleshooting-node-gyp-package-on-windows11-02.png
+[image-03]: /2021/11/troubleshooting-node-gyp-package-on-windows11-03.png
+[image-04]: /2021/11/troubleshooting-node-gyp-package-on-windows11-04.png
+[image-05]: /2021/11/troubleshooting-node-gyp-package-on-windows11-05.png
+[image-06]: /2021/11/troubleshooting-node-gyp-package-on-windows11-06.png
+[image-07]: /2021/11/troubleshooting-node-gyp-package-on-windows11-07.png
+[image-08]: /2021/11/troubleshooting-node-gyp-package-on-windows11-08.png
+[image-09]: /2021/11/troubleshooting-node-gyp-package-on-windows11-09.png
+[image-10]: /2021/11/troubleshooting-node-gyp-package-on-windows11-10.png
+[image-11]: /2021/11/troubleshooting-node-gyp-package-on-windows11-11.png
+[image-12]: /2021/11/troubleshooting-node-gyp-package-on-windows11-12.png
+[image-13]: /2021/11/troubleshooting-node-gyp-package-on-windows11-13.png
+[image-14]: /2021/11/troubleshooting-node-gyp-package-on-windows11-14.png
+[image-15]: /2021/11/troubleshooting-node-gyp-package-on-windows11-15.png
+[image-16]: /2021/11/troubleshooting-node-gyp-package-on-windows11-16.png
 
 
 [node js]: https://nodejs.org/ko/

@@ -9,7 +9,7 @@ tags:
 - blazor-wasm
 - msal
 - msgraph
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2021/09/accessing-msgraph-from-blazor-wasm-running-on-aswa-00.png
+cover: /2021/09/accessing-msgraph-from-blazor-wasm-running-on-aswa-00.png
 fullscreen: true
 ---
 
@@ -151,9 +151,9 @@ https://gist.github.com/justinyoo/38ae8fdd9ac6161551a9aee0d15b76e7?file=15-get-l
 지금까지 [애저 정적 웹 앱][az swa] 인스턴스에 [블레이저 웹어셈블리][blazor wasm] 앱을 호스팅하고 [애저 펑션][az fncapp] API를 통해 [MSAL][ms al]로 [애저 액티브 디렉토리][az ad]에 인증하고, [Microsoft Graph][ms graph] API를 이용해 사용자 정보를 가져오는 방법에 대해 알아보았다. Microsoft Graph API는 [Microsoft 365][m365]의 거의 모든 리소스에 접근이 가능한 만큼 이를 이용하면 [셰어포인트][m365 spo], [팀즈][m365 teams] 같은 다른 서비스들도 쉽게 이용할 수 있을 것이다.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2021/09/accessing-msgraph-from-blazor-wasm-running-on-aswa-01-ko.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2021/09/accessing-msgraph-from-blazor-wasm-running-on-aswa-02-ko.png
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2021/09/accessing-msgraph-from-blazor-wasm-running-on-aswa-03-ko.png
+[image-01]: /2021/09/accessing-msgraph-from-blazor-wasm-running-on-aswa-01-ko.png
+[image-02]: /2021/09/accessing-msgraph-from-blazor-wasm-running-on-aswa-02-ko.png
+[image-03]: /2021/09/accessing-msgraph-from-blazor-wasm-running-on-aswa-03-ko.png
 
 
 [gh sample]: https://github.com/fusiondevkr/fusiondevkr

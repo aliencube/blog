@@ -9,7 +9,7 @@ tags:
 - azure-static-webapps
 - github-actions
 - refactoring
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2021/12/refactoring-aswa-github-actions-workflow-00.png
+cover: /2021/12/refactoring-aswa-github-actions-workflow-00.png
 fullscreen: true
 ---
 

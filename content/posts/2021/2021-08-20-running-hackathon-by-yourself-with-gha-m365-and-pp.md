@@ -9,7 +9,7 @@ tags:
 - github-actions
 - power-platform
 - azure-functions
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-00-ko.png
+cover: /2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-00-ko.png
 fullscreen: true
 ---
 
@@ -269,16 +269,16 @@ HackaLearn 이벤트 도중에 [깃헙 액션][gha]과 [애저 정적 웹 앱][a
 이 자리를 빌어 최전방에서 참가자들의 PR 리뷰에 참여해 준 우리 [MLSA][mlsa]와 [GCE][gce] 스탭들, 그리고 현업 멘토님들께 다시 한 번 감사를 드리고 싶다. 이분들이 없었더라면 아무리 운영 자동화를 시켜놨다 하더라도 절대로 안정적으로 행사가 진행되지 않았을 것이다.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-01-ko.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2021/08/registration-ko.png
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2021/08/challenge-social-ko.png
-[image-04]: https://sa0blogs.blob.core.windows.net/aliencube/2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/aliencube/2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-05.png
-[image-06]: https://sa0blogs.blob.core.windows.net/aliencube/2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-06.png
-[image-07]: https://sa0blogs.blob.core.windows.net/aliencube/2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-07.png
-[image-08]: https://sa0blogs.blob.core.windows.net/aliencube/2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-08.png
-[image-09]: https://sa0blogs.blob.core.windows.net/aliencube/2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-09.png
-[image-10]: https://sa0blogs.blob.core.windows.net/aliencube/2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-10.png
+[image-01]: /2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-01-ko.png
+[image-02]: /2021/08/registration-ko.png
+[image-03]: /2021/08/challenge-social-ko.png
+[image-04]: /2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-04.png
+[image-05]: /2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-05.png
+[image-06]: /2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-06.png
+[image-07]: /2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-07.png
+[image-08]: /2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-08.png
+[image-09]: /2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-09.png
+[image-10]: /2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-10.png
 
 
 [hackalearn]: https://aka.ms/hackalearn/korea

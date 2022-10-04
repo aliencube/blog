@@ -9,7 +9,7 @@ tags:
 - azure-resource-manager
 - provisioning
 - workflow
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-00.png
+cover: /2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-00.png
 fullscreen: true
 ---
 
@@ -108,19 +108,19 @@ https://gist.github.com/justinyoo/90c6e7a93fc0f957aa35751a8fee32f4?file=02-check
 지금까지 일회성으로 애저 리소스를 프로비저닝하기 위해 간단하게 파워 앱을 만들고 실행시켜 봤다. 여기서는 굉장히 간단하게 한다고 한 가지 사용자 케이스만 다루었지만, 실제 현업에서는 이런 일회성 작업이 꽤 많이 있을 것이다. 그 중에서 빈도가 상대적으로 높으면서 조금은 번거로운 작업들은 이렇게 파워 플랫폼을 이용해서 어느 정도 정형화 및 자동화를 시켜 놓으면 업무 생산성 향상에 꽤 많은 도움이 될 것이다.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/aliencube/2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/aliencube/2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-05.png
-[image-06]: https://sa0blogs.blob.core.windows.net/aliencube/2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-06.png
-[image-07]: https://sa0blogs.blob.core.windows.net/aliencube/2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-07.png
-[image-08]: https://sa0blogs.blob.core.windows.net/aliencube/2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-08.png
-[image-09]: https://sa0blogs.blob.core.windows.net/aliencube/2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-09.png
-[image-10]: https://sa0blogs.blob.core.windows.net/aliencube/2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-10.png
-[image-11]: https://sa0blogs.blob.core.windows.net/aliencube/2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-11.png
-[image-12]: https://sa0blogs.blob.core.windows.net/aliencube/2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-12.png
-[image-13]: https://sa0blogs.blob.core.windows.net/aliencube/2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-13.png
+[image-01]: /2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-01.png
+[image-02]: /2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-02.png
+[image-03]: /2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-03.png
+[image-04]: /2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-04.png
+[image-05]: /2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-05.png
+[image-06]: /2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-06.png
+[image-07]: /2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-07.png
+[image-08]: /2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-08.png
+[image-09]: /2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-09.png
+[image-10]: /2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-10.png
+[image-11]: /2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-11.png
+[image-12]: /2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-12.png
+[image-13]: /2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-13.png
 
 [post prev]: /ko/2020/08/26/app-provisioning-on-azure-vm-with-chocolatey-for-live-streaming/
 

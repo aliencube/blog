@@ -9,7 +9,7 @@ tags:
 - live-events
 - checklists
 - til
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2020/03/today-i-learnt-about-ms-teams-live-event-00.png
+cover: /2020/03/today-i-learnt-about-ms-teams-live-event-00.png
 fullscreen: true
 ---
 

@@ -9,7 +9,7 @@ tags:
 - powerapps
 - naver-map-api
 - facade
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2020/03/building-powerapp-with-naver-map-api-00.png
+cover: /2020/03/building-powerapp-with-naver-map-api-00.png
 fullscreen: true
 ---
 
@@ -65,11 +65,11 @@ https://gist.github.com/justinyoo/18966c960fa9b97fd7b264aa911f7420?file=naver-ma
 지금까지 [파워 앱][power apps]에 외부 API를 연동할 때 직접 연동이 불가능한 경우 [애저 펑션][az func]을 이용해 퍼사드를 만들어 붙이는 방법에 대해 알아 보았다. 사실 이 포스트에서는 [애저 펑션][az func]을 사용했지만, [파워 오토메이트][power automate]나 [로직 앱][az logapp]을 사용해도 큰 문제는 없다. 중요한 것은 이렇게 외부 API 사용에 대한 제약이 있을 때 중간에 퍼사드를 굉장히 간단하게 만들어 넣을 수 있다는 점이다. [파워 오토메이트][power automate] 또는 [로직 앱][az logapp]을 사용해서 구현해 보는 것은 여러분의 몫으로 남겨두기로 한다.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2020/03/building-powerapp-with-naver-map-api-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2020/03/building-powerapp-with-naver-map-api-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2020/03/building-powerapp-with-naver-map-api-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/aliencube/2020/03/building-powerapp-with-naver-map-api-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/aliencube/2020/03/building-powerapp-with-naver-map-api-05.png
+[image-01]: /2020/03/building-powerapp-with-naver-map-api-01.png
+[image-02]: /2020/03/building-powerapp-with-naver-map-api-02.png
+[image-03]: /2020/03/building-powerapp-with-naver-map-api-03.png
+[image-04]: /2020/03/building-powerapp-with-naver-map-api-04.png
+[image-05]: /2020/03/building-powerapp-with-naver-map-api-05.png
 
 [mvp cana]: https://mvp.microsoft.com/en-us/PublicProfile/5001865
 [mvp shane]: https://twitter.com/ShanesCows

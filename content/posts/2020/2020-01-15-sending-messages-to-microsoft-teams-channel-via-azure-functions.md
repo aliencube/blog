@@ -9,7 +9,7 @@ tags:
 - azure-functions
 - custom-connector
 - incoming-webhook
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2020/01/sending-messages-to-microsoft-teams-via-azure-functions-00.png
+cover: /2020/01/sending-messages-to-microsoft-teams-via-azure-functions-00.png
 fullscreen: true
 ---
 

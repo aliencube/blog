@@ -9,7 +9,7 @@ tags:
 - azure-keyvault
 - pro-tips
 - local-dev
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2020/04/3-ways-referencing-azure-key-vault-from-azure-functions-00.png
+cover: /2020/04/3-ways-referencing-azure-key-vault-from-azure-functions-00.png
 fullscreen: true
 ---
 
@@ -93,9 +93,9 @@ https://gist.github.com/justinyoo/a6557ce58fb28e526744d85941404e75?file=08-appse
 지금까지, [애저 펑션][az func]에서 [애저 키 저장소][az kv] 값을 참조하는 세 가지 방법에 대해 알아 보았다. 저마다 장점도 있고 단점도 있는지라, 어느 부분을 선택할지에 대해서는 전적으로 여러분의 몫이다.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2020/04/3-ways-referencing-azure-key-vault-from-azure-functions-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2020/04/3-ways-referencing-azure-key-vault-from-azure-functions-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2020/04/3-ways-referencing-azure-key-vault-from-azure-functions-03.png
+[image-01]: /2020/04/3-ways-referencing-azure-key-vault-from-azure-functions-01.png
+[image-02]: /2020/04/3-ways-referencing-azure-key-vault-from-azure-functions-02.png
+[image-03]: /2020/04/3-ways-referencing-azure-key-vault-from-azure-functions-03.png
 
 [post azfunc mi]: /ko/2019/01/03/accessing-key-vault-from-azure-functions-with-managed-identity/
 

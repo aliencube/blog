@@ -9,7 +9,7 @@ tags:
 - custom-action
 - docker
 - dotnet-core
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2020/02/building-custom-github-action-with-dotnet-core-00.png
+cover: /2020/02/building-custom-github-action-with-dotnet-core-00.png
 fullscreen: true
 ---
 
@@ -107,8 +107,8 @@ https://gist.github.com/justinyoo/073ed7a27a21786f922b6c8aca9b1729?file=workflow
 지금까지 .NET Core 콘솔 앱을 이용해 커스텀 깃헙 액션을 만드는 방법에 대해 실제 예제를 통해 알아 보았다. 이것은 그저 하나의 예시일 뿐이므로 본인의 용도에 맞는 액션을 하나씩 만들어 보면 깃헙 액션에 대한 전체적인 감을 쉽게 잡을 수 있을 것이다.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2020/02/building-custom-github-action-with-dotnet-core-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2020/02/building-custom-github-action-with-dotnet-core-02.png
+[image-01]: /2020/02/building-custom-github-action-with-dotnet-core-01.png
+[image-02]: /2020/02/building-custom-github-action-with-dotnet-core-02.png
 
 [prev post 1]: https://blog.aliencube.org/ko/2019/12/13/publishing-static-website-to-azure-blob-storage-via-github-actions/
 [prev post 2]: https://blog.aliencube.org/ko/2019/12/18/building-ci-cd-pipelines-with-github-actions/

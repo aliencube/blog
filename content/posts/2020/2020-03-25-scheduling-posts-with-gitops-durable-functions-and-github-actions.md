@@ -9,7 +9,7 @@ tags:
 - github-actions
 - gitops
 - event-scheduling
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2020/03/scheduling-posts-with-gitops-durable-functions-and-github-actions-00.png
+cover: /2020/03/scheduling-posts-with-gitops-durable-functions-and-github-actions-00.png
 fullscreen: true
 ---
 
@@ -113,8 +113,8 @@ https://gist.github.com/justinyoo/0516447045d0ef3c606d7e84f0ecd872?file=06-workf
 지금까지 [애저 Durable Functions][az func durable]와 [GitHub Actions][gh actions]를 이용해 정적 블로그 포스트를 예약 발행하는 방법에 대해 알아보았다. 이 전체적인 워크플로우가 한 번 익숙해지면 [애저 Durable Functions][az func durable]과 [GitHub Actions][gh actions]가 작동하는 방식에 대해 좀 더 포괄적인 이해가 가능할 것이다. 정적 웹사이트를 GitHub 리포지토리를 통해 호스팅하고 있다면 이 방법으로 예약 포스팅을 해 보는 것은 어떨까?
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2020/03/scheduling-posts-with-gitops-durable-functions-and-github-actions-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2020/03/scheduling-posts-with-gitops-durable-functions-and-github-actions-02.png
+[image-01]: /2020/03/scheduling-posts-with-gitops-durable-functions-and-github-actions-01.png
+[image-02]: /2020/03/scheduling-posts-with-gitops-durable-functions-and-github-actions-02.png
 
 [post serverless]: https://blog.aliencube.org/ko/2016/06/23/serverless-architectures/
 [post prev]: https://blog.aliencube.org/ko/2020/01/03/migrating-wordpress-to-gridsome-on-netlify-through-github-actions/

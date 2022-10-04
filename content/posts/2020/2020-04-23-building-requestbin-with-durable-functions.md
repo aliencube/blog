@@ -9,7 +9,7 @@ tags:
 - requestbin
 - stateful-api
 - event-sourcing
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2020/04/building-requestbin-with-durable-functions-00.png
+cover: /2020/04/building-requestbin-with-durable-functions-00.png
 fullscreen: true
 ---
 
@@ -120,12 +120,12 @@ https://gist.github.com/justinyoo/01426032d1ee6886796d9cb72e048dd9?file=13-purge
 이렇게 RequestBin 앱을 구현해 봤다. 이 코드만 가지고서는 간단한 웹훅 확인 용도로 사용하는데에는 큰 문제가 없다. 여기에 더해 조금 더 UI를 붙여준다거나 하면 좀 더 완성도가 높은 앱이 될 것이다. 이 실습의 포인트는 [Durable Functions][az func durable]의 Stateful한 특성을 오케스트레이션 용도 뿐만 아니라 직접 액세스를 통해 다양한 활용도를 실험해 볼 수 있다는 데 있다. 앞으로 이 Durable Functions을 통해 좀 더 다양한 워크플로우 관리를 할 수 있기를 기대한다.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2020/04/building-requestbin-with-durable-functions-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2020/04/building-requestbin-with-durable-functions-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2020/04/building-requestbin-with-durable-functions-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/aliencube/2020/04/building-requestbin-with-durable-functions-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/aliencube/2020/04/building-requestbin-with-durable-functions-05.png
-[image-06]: https://sa0blogs.blob.core.windows.net/aliencube/2020/04/building-requestbin-with-durable-functions-06.png
+[image-01]: /2020/04/building-requestbin-with-durable-functions-01.png
+[image-02]: /2020/04/building-requestbin-with-durable-functions-02.png
+[image-03]: /2020/04/building-requestbin-with-durable-functions-03.png
+[image-04]: /2020/04/building-requestbin-with-durable-functions-04.png
+[image-05]: /2020/04/building-requestbin-with-durable-functions-05.png
+[image-06]: /2020/04/building-requestbin-with-durable-functions-06.png
 
 [post gitops]: /ko/2020/03/25/scheduling-posts-with-gitops-durable-functions-and-github-actions/
 

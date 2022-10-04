@@ -9,7 +9,7 @@ tags:
 - chatops
 - continuous-delivery
 - approval-process
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2020/03/implementing-chatops-with-github-actions-00.png
+cover: /2020/03/implementing-chatops-with-github-actions-00.png
 fullscreen: true
 ---
 
@@ -100,9 +100,9 @@ https://gist.github.com/justinyoo/5d12d5df5c569df921ff614001bb48d2?file=function
 지금까지 [Microsoft Teams][ms teams]를 이용해 [깃헙 액션][gh actions]으로 ChatOps를 구현하는 방법에 대해 알아 보았다. 여기서는 굉장히 간단한 예제를 통해 알아봤지만, 회사마다 다양한 사용자 케이스를 통해 좀 더 풍부한 결과물을 만들어 낼 수 있을 것이다. 여기까지 읽어 봤다면 이 포스트에서 사용한 [애저 펑션][az func] 이외에 [이벤트 그리드][az eventg] 또는 [로직 앱][az logapp]을 이용해서 한 번 자신의 상황에 맞게 구현해 볼 수도 있지 않을까? 그것은 여러분의 몫으로 남겨두기로 한다.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2020/03/implementing-chatops-with-github-actions-01-ko.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2020/03/implementing-chatops-with-github-actions-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2020/03/implementing-chatops-with-github-actions-03.png
+[image-01]: /2020/03/implementing-chatops-with-github-actions-01-ko.png
+[image-02]: /2020/03/implementing-chatops-with-github-actions-02.png
+[image-03]: /2020/03/implementing-chatops-with-github-actions-03.png
 
 [ci cd]: https://www.redhat.com/ko/topics/devops/what-is-ci-cd
 [gitops]: https://www.weave.works/technologies/gitops/

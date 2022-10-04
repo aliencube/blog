@@ -9,7 +9,7 @@ tags:
 - face-api
 - azure-blob-storage
 - covid-19
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2020/04/identifying-faces-through-azure-functions-using-face-api-00.png
+cover: /2020/04/identifying-faces-through-azure-functions-using-face-api-00.png
 fullscreen: true
 ---
 
@@ -115,12 +115,12 @@ https://gist.github.com/justinyoo/840f71acbc16a767c23e90b16c06a323?file=05-confi
 지금까지 [애저 펑션][az func]과 [애저 안면 인식 API][az cog faceapi]를 사용해서 본인 인증을 하는 방법에 대해 알아 보았다. 사실 안면 인식 알고리즘이 굉장히 복잡할텐데, 우리는 그런 부분은 모두 애저에 맏겨놓고 단순히 API만 사용하면 되는 것이 바로 이 포스트의 핵심이다. [다음 포스트][post series 3]에서는 이를 바탕으로 실제 [파워 앱][power apps]을 통해 이를 어떻게 구현하는지에 대해 알아보기로 한다.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2020/04/identifying-faces-through-azure-functions-using-face-api-01-ko.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2020/04/identifying-faces-through-azure-functions-using-face-api-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2020/04/identifying-faces-through-azure-functions-using-face-api-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/aliencube/2020/04/identifying-faces-through-azure-functions-using-face-api-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/aliencube/2020/04/identifying-faces-through-azure-functions-using-face-api-05.png
-[image-06]: https://sa0blogs.blob.core.windows.net/aliencube/2020/04/identifying-faces-through-azure-functions-using-face-api-06.png
+[image-01]: /2020/04/identifying-faces-through-azure-functions-using-face-api-01-ko.png
+[image-02]: /2020/04/identifying-faces-through-azure-functions-using-face-api-02.png
+[image-03]: /2020/04/identifying-faces-through-azure-functions-using-face-api-03.png
+[image-04]: /2020/04/identifying-faces-through-azure-functions-using-face-api-04.png
+[image-05]: /2020/04/identifying-faces-through-azure-functions-using-face-api-05.png
+[image-06]: /2020/04/identifying-faces-through-azure-functions-using-face-api-06.png
 
 [post series 1]: /ko/2020/04/01/capturing-images-from-browser-to-azure-blob-storage-via-azure-functions/
 [post series 3]: /ko/2020/04/15/building-online-check-in-app-with-power-apps

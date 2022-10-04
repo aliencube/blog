@@ -9,7 +9,7 @@ tags:
 - azure-logic-apps
 - power-automate
 - power-apps
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2020/12/seasons-of-serverless-week-5-00.png
+cover: /2020/12/seasons-of-serverless-week-5-00.png
 fullscreen: true
 ---
 
@@ -149,14 +149,14 @@ https://youtu.be/AJlCv2pAc8g
 
 
 [image-01]: https://raw.githubusercontent.com/justinyoo/Seasons-of-Serverless/solution/solutions/2020-12-21/flowchart.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2020/12/seasons-of-serverless-week-5-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2020/12/seasons-of-serverless-week-5-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/aliencube/2020/12/seasons-of-serverless-week-5-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/aliencube/2020/12/seasons-of-serverless-week-5-05.png
-[image-06]: https://sa0blogs.blob.core.windows.net/aliencube/2020/12/seasons-of-serverless-week-5-06.jpg
-[image-07]: https://sa0blogs.blob.core.windows.net/aliencube/2020/12/seasons-of-serverless-week-5-07.png
-[image-08]: https://sa0blogs.blob.core.windows.net/aliencube/2020/12/seasons-of-serverless-week-5-08.png
-[image-09]: https://sa0blogs.blob.core.windows.net/aliencube/2020/12/seasons-of-serverless-week-5-09.png
+[image-02]: /2020/12/seasons-of-serverless-week-5-02.png
+[image-03]: /2020/12/seasons-of-serverless-week-5-03.png
+[image-04]: /2020/12/seasons-of-serverless-week-5-04.png
+[image-05]: /2020/12/seasons-of-serverless-week-5-05.png
+[image-06]: /2020/12/seasons-of-serverless-week-5-06.jpg
+[image-07]: /2020/12/seasons-of-serverless-week-5-07.png
+[image-08]: /2020/12/seasons-of-serverless-week-5-08.png
+[image-09]: /2020/12/seasons-of-serverless-week-5-09.png
 
 [devto sos]: https://dev.to/azure/azure-advocates-seasons-of-serverless-join-our-virtual-festive-potluck-53m6
 [devto sos week1]: https://dev.to/azure/seasonsofserverless-solution-1-developing-the-perfect-holiday-turkey-2p3f

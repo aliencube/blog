@@ -9,7 +9,7 @@ tags:
 - github-actions
 - jam-stack
 - azure-durable-functions
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2020/05/publishing-jam-stack-web-apps-with-gitops-and-github-actions-00.png
+cover: /2020/05/publishing-jam-stack-web-apps-with-gitops-and-github-actions-00.png
 fullscreen: true
 ---
 
@@ -68,11 +68,11 @@ PR 워크플로우가 자동으로 모든 것을 해결한다.
 지금까지 블로그 포스트 발행을 위한 모든 과정을 GitOps와 [애저 Durable Functions][az func durable], 그리고 [깃헙 액션][gh actions]을 이용해서 자동화해 봤다. 만약 정적 웹사이트를 운영하고 있고, 리포지토리가 깃헙에 있다면 이와 같은 방식으로 예약 포스팅을 자동화하는 것을 고려해 보면 좋을 것이다.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2020/05/publishing-jam-stack-web-apps-with-gitops-and-github-actions-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2020/05/publishing-jam-stack-web-apps-with-gitops-and-github-actions-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2020/05/publishing-jam-stack-web-apps-with-gitops-and-github-actions-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/aliencube/2020/05/publishing-jam-stack-web-apps-with-gitops-and-github-actions-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/aliencube/2020/05/publishing-jam-stack-web-apps-with-gitops-and-github-actions-05.png
+[image-01]: /2020/05/publishing-jam-stack-web-apps-with-gitops-and-github-actions-01.png
+[image-02]: /2020/05/publishing-jam-stack-web-apps-with-gitops-and-github-actions-02.png
+[image-03]: /2020/05/publishing-jam-stack-web-apps-with-gitops-and-github-actions-03.png
+[image-04]: /2020/05/publishing-jam-stack-web-apps-with-gitops-and-github-actions-04.png
+[image-05]: /2020/05/publishing-jam-stack-web-apps-with-gitops-and-github-actions-05.png
 
 [post gitops schedule]: /ko/2020/03/25/scheduling-posts-with-gitops-durable-functions-and-github-actions/
 

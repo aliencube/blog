@@ -9,7 +9,7 @@ tags:
 - apex-domain
 - lets-encrypt
 - ssl-certificate
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2020/10/lets-encrypt-ssl-certificate-on-azure-functions-00.png
+cover: /2020/10/lets-encrypt-ssl-certificate-on-azure-functions-00.png
 fullscreen: true
 ---
 
@@ -124,18 +124,18 @@ fullscreen: true
 지금까지 [애저 펑션][az func]에 사용자 지정 도메인을 설정하고 [Let's Encrypt][letsencrypt]로 생성한 SSL 인증서를 연결해 보았다. [다음 포스트][post 3]에서는 애저 펑션의 IP 주소가 변경됐을 때 자동으로 이를 [애저 DNS][az dns]의 A 레코드에 반영시켜주는 방법에 대해 알아보기로 한다.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2020/10/lets-encrypt-ssl-certificate-on-azure-functions-01-ko.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2020/10/lets-encrypt-ssl-certificate-on-azure-functions-02-ko.png
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2020/10/lets-encrypt-ssl-certificate-on-azure-functions-03-ko.png
-[image-04]: https://sa0blogs.blob.core.windows.net/aliencube/2020/10/lets-encrypt-ssl-certificate-on-azure-functions-04-ko.png
-[image-05]: https://sa0blogs.blob.core.windows.net/aliencube/2020/10/lets-encrypt-ssl-certificate-on-azure-functions-05-ko.png
-[image-06]: https://sa0blogs.blob.core.windows.net/aliencube/2020/10/lets-encrypt-ssl-certificate-on-azure-functions-06-ko.png
-[image-07]: https://sa0blogs.blob.core.windows.net/aliencube/2020/10/lets-encrypt-ssl-certificate-on-azure-functions-07-ko.png
-[image-08]: https://sa0blogs.blob.core.windows.net/aliencube/2020/10/lets-encrypt-ssl-certificate-on-azure-functions-08-ko.png
-[image-09]: https://sa0blogs.blob.core.windows.net/aliencube/2020/10/lets-encrypt-ssl-certificate-on-azure-functions-09-ko.png
-[image-10]: https://sa0blogs.blob.core.windows.net/aliencube/2020/10/lets-encrypt-ssl-certificate-on-azure-functions-10-ko.png
-[image-11]: https://sa0blogs.blob.core.windows.net/aliencube/2020/10/lets-encrypt-ssl-certificate-on-azure-functions-11-ko.png
-[image-12]: https://sa0blogs.blob.core.windows.net/aliencube/2020/10/lets-encrypt-ssl-certificate-on-azure-functions-12-ko.png
+[image-01]: /2020/10/lets-encrypt-ssl-certificate-on-azure-functions-01-ko.png
+[image-02]: /2020/10/lets-encrypt-ssl-certificate-on-azure-functions-02-ko.png
+[image-03]: /2020/10/lets-encrypt-ssl-certificate-on-azure-functions-03-ko.png
+[image-04]: /2020/10/lets-encrypt-ssl-certificate-on-azure-functions-04-ko.png
+[image-05]: /2020/10/lets-encrypt-ssl-certificate-on-azure-functions-05-ko.png
+[image-06]: /2020/10/lets-encrypt-ssl-certificate-on-azure-functions-06-ko.png
+[image-07]: /2020/10/lets-encrypt-ssl-certificate-on-azure-functions-07-ko.png
+[image-08]: /2020/10/lets-encrypt-ssl-certificate-on-azure-functions-08-ko.png
+[image-09]: /2020/10/lets-encrypt-ssl-certificate-on-azure-functions-09-ko.png
+[image-10]: /2020/10/lets-encrypt-ssl-certificate-on-azure-functions-10-ko.png
+[image-11]: /2020/10/lets-encrypt-ssl-certificate-on-azure-functions-11-ko.png
+[image-12]: /2020/10/lets-encrypt-ssl-certificate-on-azure-functions-12-ko.png
 
 [post 1]: /ko/2020/10/07/3-ways-mapping-apex-domains-to-azure-functions/
 [post 2]: /ko/2020/10/14/lets-encrypt-ssl-certificate-on-azure-functions/

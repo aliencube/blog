@@ -9,7 +9,7 @@ tags:
 - github-actions
 - azure
 - publish-profile
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2020/11/deploying-azure-functions-via-github-actions-without-publish-profile-00.png
+cover: /2020/11/deploying-azure-functions-via-github-actions-without-publish-profile-00.png
 fullscreen: true
 ---
 
@@ -75,7 +75,7 @@ https://gist.github.com/justinyoo/d806e47efde7749c6154b19f081f86d2?file=06-workf
 지금까지 [깃헙 액션][gh actions]을 이용해서 애저 펑션 앱을 배포할 때 배포 프로필을 워크플로우 안에서 자동으로 추출해서 사용하고 리셋하는 방법에 대해 알아 보았다. 이 포스트에서 소개한 깃헙 액션이 애저 펑션 앱을 조금이나마 손쉽게 배포하는 데 도움이 되길 바란다.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2020/11/deploying-azure-functions-via-github-actions-without-publish-profile-01.png
+[image-01]: /2020/11/deploying-azure-functions-via-github-actions-without-publish-profile-01.png
 
 [post 1]: /ko/2020/10/07/3-ways-mapping-apex-domains-to-azure-functions/
 [post 2]: /ko/2020/10/14/lets-encrypt-ssl-certificate-on-azure-functions/

@@ -9,7 +9,7 @@ tags:
 - dependency-injection
 - ioc-container
 - multiple-instances
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/5-ways-injecting-multiple-instances-of-same-interface-on-aspnet-core-00.png
+cover: /2020/07/5-ways-injecting-multiple-instances-of-same-interface-on-aspnet-core-00.png
 fullscreen: true
 ---
 

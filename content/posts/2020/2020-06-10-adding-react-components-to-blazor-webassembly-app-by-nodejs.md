@@ -9,7 +9,7 @@ tags:
 - reactjs
 - fluent-ui
 - js-interop
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2020/06/adding-react-components-to-blazor-webassembly-app-by-nodejs-00.png
+cover: /2020/06/adding-react-components-to-blazor-webassembly-app-by-nodejs-00.png
 fullscreen: true
 ---
 
@@ -100,9 +100,9 @@ https://gist.github.com/justinyoo/224fa5fe1bfa2dca8dcdd0fc83c17251?file=11-app.c
 이렇게 해서 [Blazor 웹 어셈블리][blazor wasm] 애플리케이션에 [React][reactjs] 기반의 컴포넌트를 npm 패키지를 이용해 추가하는 방법에 대해 알아보았다. [다음 포스트][post next]에서는 이렇게 만들어진 [Blazor 웹 어셈블리][blazor wasm] 애플리케이션을 [애저 정적 웹 앱][az swa]에 배포하는 방법에 대해 알아보기로 하자.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2020/06/adding-react-components-to-blazor-webassembly-app-by-nodejs-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2020/06/adding-react-components-to-blazor-webassembly-app-by-nodejs-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2020/06/adding-react-components-to-blazor-webassembly-app-by-nodejs-03.png
+[image-01]: /2020/06/adding-react-components-to-blazor-webassembly-app-by-nodejs-01.png
+[image-02]: /2020/06/adding-react-components-to-blazor-webassembly-app-by-nodejs-02.png
+[image-03]: /2020/06/adding-react-components-to-blazor-webassembly-app-by-nodejs-03.png
 
 [gh sample]: https://github.com/devkimchi/Blazor-React-Sample
 

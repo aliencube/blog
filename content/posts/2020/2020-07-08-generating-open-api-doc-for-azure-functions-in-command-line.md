@@ -9,7 +9,7 @@ tags:
 - azure-functions
 - open-api
 - cli
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/generating-open-api-doc-for-azure-functions-in-command-line-00.png
+cover: /2020/07/generating-open-api-doc-for-azure-functions-in-command-line-00.png
 fullscreen: true
 ---
 

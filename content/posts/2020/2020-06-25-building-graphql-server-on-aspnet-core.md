@@ -9,7 +9,7 @@ tags:
 - aspnet-core
 - graphql-dotnet
 - graphql-server
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2020/06/building-graphql-server-on-aspnet-core-00.png
+cover: /2020/06/building-graphql-server-on-aspnet-core-00.png
 fullscreen: true
 ---
 
@@ -174,11 +174,11 @@ https://gist.github.com/justinyoo/6ed73a24422011564015012b15cc6bd6?file=21-reque
 지금까지 [ASP.NET Core][aspnet core] 앱을 통해 GraphQL 서버를 구현하는 방법에 대해 알아 보았다. 이미 관련 라이브러리가 존재하기 때문에 이를 이용해서 상당히 손쉽게 만들 수 있었는데, 다음 포스트에서는 이를 이용해서 REST 기반의 API를 GraphQL로 변환시켜 보는 작업을 해 보도록 하자.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2020/06/building-graphql-server-on-aspnet-core-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2020/06/building-graphql-server-on-aspnet-core-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2020/06/building-graphql-server-on-aspnet-core-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/aliencube/2020/06/building-graphql-server-on-aspnet-core-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/aliencube/2020/06/building-graphql-server-on-aspnet-core-05.png
+[image-01]: /2020/06/building-graphql-server-on-aspnet-core-01.png
+[image-02]: /2020/06/building-graphql-server-on-aspnet-core-02.png
+[image-03]: /2020/06/building-graphql-server-on-aspnet-core-03.png
+[image-04]: /2020/06/building-graphql-server-on-aspnet-core-04.png
+[image-05]: /2020/06/building-graphql-server-on-aspnet-core-05.png
 
 [gh sample]: https://github.com/devkimchi/GraphQL-Sample
 [gh api graphql]: https://developer.github.com/v4/

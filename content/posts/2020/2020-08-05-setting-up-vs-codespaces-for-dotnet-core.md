@@ -9,7 +9,7 @@ tags:
 - github-codespaces
 - environment-setup
 - dotnet-core
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2020/08/setting-up-vs-codespaces-for-dotnet-core-00.png
+cover: /2020/08/setting-up-vs-codespaces-for-dotnet-core-00.png
 fullscreen: true
 ---
 
@@ -141,13 +141,13 @@ https://gist.github.com/justinyoo/491cd606bd3b646f3fd5773d104e46f5?file=04-dotne
 지금까지 닷넷 코어 애플리케이션 개발을 위해 [VS CS][vs cs]에서 공통 환경 설정하는 부분에 대해 알아 보았다. 아무래도 이런 형태로 프로젝트별로 팀원들간 공통의 개발 환경을 공유하다보면 "내 컴퓨터에서는 돌아가는데?"와 같은 문제는 없어지지 않을까 생각한다.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2020/08/setting-up-vs-codespaces-for-dotnet-core-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2020/08/setting-up-vs-codespaces-for-dotnet-core-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2020/08/setting-up-vs-codespaces-for-dotnet-core-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/aliencube/2020/08/setting-up-vs-codespaces-for-dotnet-core-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/aliencube/2020/08/setting-up-vs-codespaces-for-dotnet-core-05.png
-[image-06]: https://sa0blogs.blob.core.windows.net/aliencube/2020/08/setting-up-vs-codespaces-for-dotnet-core-06.png
-[image-07]: https://sa0blogs.blob.core.windows.net/aliencube/2020/08/setting-up-vs-codespaces-for-dotnet-core-07.png
+[image-01]: /2020/08/setting-up-vs-codespaces-for-dotnet-core-01.png
+[image-02]: /2020/08/setting-up-vs-codespaces-for-dotnet-core-02.png
+[image-03]: /2020/08/setting-up-vs-codespaces-for-dotnet-core-03.png
+[image-04]: /2020/08/setting-up-vs-codespaces-for-dotnet-core-04.png
+[image-05]: /2020/08/setting-up-vs-codespaces-for-dotnet-core-05.png
+[image-06]: /2020/08/setting-up-vs-codespaces-for-dotnet-core-06.png
+[image-07]: /2020/08/setting-up-vs-codespaces-for-dotnet-core-07.png
 
 [devto post]: https://dev.to/n3wt0n/visual-studio-github-codespaces-questions-answered-5ge7
 

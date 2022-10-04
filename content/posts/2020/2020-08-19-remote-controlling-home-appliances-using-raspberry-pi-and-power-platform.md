@@ -9,7 +9,7 @@ tags:
 - remote-controller
 - power-platform
 - azure-functions
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-00.png
+cover: /2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-00.png
 fullscreen: true
 ---
 
@@ -170,23 +170,23 @@ https://youtu.be/JXPLTuloSWg
 지금까지 가전 제품의 리모콘을 라즈베리 파이로 구현해서, 이를 퍼블릭 클라우드를 통해 파워 앱으로 제어할 수 있는 시나리오를 살펴보았다. 이렇게 만들어 놨다면, 집 밖에서도 충분히 집 안의 가전제품을 제어할 수 있게 되는 것이다. 이밖에도 파워 플랫폼의 용도는 무궁무진한데, 이 포스트를 읽는 여러분들도 재미있는 아이디어가 있다면 충분히 활용해 볼 만 하다.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/aliencube/2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/aliencube/2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-05.png
-[image-06]: https://sa0blogs.blob.core.windows.net/aliencube/2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-06.png
-[image-07]: https://sa0blogs.blob.core.windows.net/aliencube/2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-07.png
-[image-08]: https://sa0blogs.blob.core.windows.net/aliencube/2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-08.png
-[image-09]: https://sa0blogs.blob.core.windows.net/aliencube/2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-09.png
-[image-10]: https://sa0blogs.blob.core.windows.net/aliencube/2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-10.png
-[image-11]: https://sa0blogs.blob.core.windows.net/aliencube/2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-11.png
-[image-12]: https://sa0blogs.blob.core.windows.net/aliencube/2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-12.png
-[image-13]: https://sa0blogs.blob.core.windows.net/aliencube/2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-13.png
-[image-14]: https://sa0blogs.blob.core.windows.net/aliencube/2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-14.png
-[image-15]: https://sa0blogs.blob.core.windows.net/aliencube/2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-15.png
-[image-16]: https://sa0blogs.blob.core.windows.net/aliencube/2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-16.png
-[image-17]: https://sa0blogs.blob.core.windows.net/aliencube/2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-17.png
+[image-01]: /2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-01.png
+[image-02]: /2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-02.png
+[image-03]: /2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-03.png
+[image-04]: /2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-04.png
+[image-05]: /2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-05.png
+[image-06]: /2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-06.png
+[image-07]: /2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-07.png
+[image-08]: /2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-08.png
+[image-09]: /2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-09.png
+[image-10]: /2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-10.png
+[image-11]: /2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-11.png
+[image-12]: /2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-12.png
+[image-13]: /2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-13.png
+[image-14]: /2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-14.png
+[image-15]: /2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-15.png
+[image-16]: /2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-16.png
+[image-17]: /2020/08/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform-17.png
 
 [post prev]: /ko/2020/08/12/turning-raspberry-pi-into-remote-controller/
 

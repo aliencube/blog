@@ -9,7 +9,7 @@ tags:
 - reactjs
 - fluent-ui
 - js-interop
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2020/06/adding-react-components-to-blazor-webassembly-app-00.png
+cover: /2020/06/adding-react-components-to-blazor-webassembly-app-00.png
 fullscreen: true
 ---
 
@@ -72,9 +72,9 @@ https://gist.github.com/justinyoo/e6a99fffa35d032f70e937c7ccf14ddb?file=04-updat
 * [React][reactjs] 라이브러리를 CDN에 직접 링크했다. npm 패키지를 이용할 수도 있는데, 이는 [다음 포스트][post next]에서 다뤄보기로 한다.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2020/06/adding-react-components-to-blazor-webassembly-app-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2020/06/adding-react-components-to-blazor-webassembly-app-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2020/06/adding-react-components-to-blazor-webassembly-app-03.png
+[image-01]: /2020/06/adding-react-components-to-blazor-webassembly-app-01.png
+[image-02]: /2020/06/adding-react-components-to-blazor-webassembly-app-02.png
+[image-03]: /2020/06/adding-react-components-to-blazor-webassembly-app-03.png
 
 [post series 1]: /ko/2020/06/03/adding-react-components-to-blazor-webassembly-app/
 [post series 2]: /ko/2020/06/10/adding-react-components-to-blazor-webassembly-app-by-nodejs/

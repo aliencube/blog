@@ -9,7 +9,7 @@ tags:
 - azure-static-web-app
 - github-actions
 - azure-functions-proxy
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-00.png
+cover: /2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-00.png
 fullscreen: true
 ---
 
@@ -154,17 +154,17 @@ https://gist.github.com/justinyoo/fcba3e387d240a057e76a28f233fec82?file=12-actio
 지금까지 [Blazor 웹 어셈블리][blazor wasm] 앱을 [애저 정적 웹 앱][az swa] 인스턴스에 배포하는 방법에 대해 알아 보았다. Blazor 앱만 배포하는 과정은 깃헙 액션 워크플로우를 살짝만 수정하면 되므로 그닥 복잡하지는 않은데, 프록시 API까지 함께 배포하려면 좀 더 손이 많이 간다. 아직 프리뷰 상태이고 여전히 개선 중이니, 정식 출시가 되는 시점에서는 Blazor 앱 역시도 작동할 수 있기를 기대한다.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/aliencube/2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/aliencube/2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-05.png
-[image-06]: https://sa0blogs.blob.core.windows.net/aliencube/2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-06.png
-[image-07]: https://sa0blogs.blob.core.windows.net/aliencube/2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-07.png
-[image-08]: https://sa0blogs.blob.core.windows.net/aliencube/2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-08.png
-[image-09]: https://sa0blogs.blob.core.windows.net/aliencube/2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-09.png
-[image-10]: https://sa0blogs.blob.core.windows.net/aliencube/2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-10.png
-[image-11]: https://sa0blogs.blob.core.windows.net/aliencube/2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-11.png
+[image-01]: /2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-01.png
+[image-02]: /2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-02.png
+[image-03]: /2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-03.png
+[image-04]: /2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-04.png
+[image-05]: /2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-05.png
+[image-06]: /2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-06.png
+[image-07]: /2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-07.png
+[image-08]: /2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-08.png
+[image-09]: /2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-09.png
+[image-10]: /2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-10.png
+[image-11]: /2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-11.png
 
 [gh sample]: https://github.com/devkimchi/Blazor-React-Sample
 [gh sample blazor]: https://github.com/devkimchi/Blazor-React-Sample/tree/master/BlazorNpmSample

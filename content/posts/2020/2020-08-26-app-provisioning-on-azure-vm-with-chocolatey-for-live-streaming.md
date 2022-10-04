@@ -9,7 +9,7 @@ tags:
 - chocolatey
 - provisioning
 - configuration
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2020/08/app-provisioning-on-azure-vm-with-chocolatey-for-live-streaming-00.png
+cover: /2020/08/app-provisioning-on-azure-vm-with-chocolatey-for-live-streaming-00.png
 fullscreen: true
 ---
 
@@ -93,7 +93,7 @@ https://gist.github.com/justinyoo/acdfc3c854f21f4e10f56e3d9d75e4c7?file=05-arm-d
 [다음 포스트][post next]에서는 이런 애저 리소스 프로비저닝을 [파워 플랫폼][pw platform]을 통해 단순화시켜 볼 수 있는 방법에 대해 알아보기로한다.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2020/08/app-provisioning-on-azure-vm-with-chocolatey-for-live-streaming-01.png
+[image-01]: /2020/08/app-provisioning-on-azure-vm-with-chocolatey-for-live-streaming-01.png
 
 [post next]: /ko/2020/09/02/ad-hoc-azure-resource-provisioning-via-power-platform/
 

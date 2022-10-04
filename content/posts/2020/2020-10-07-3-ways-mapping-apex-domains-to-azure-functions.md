@@ -9,7 +9,7 @@ tags:
 - apex-domain
 - azure-cli
 - arm-template
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2020/10/3-ways-mapping-apex-domains-to-azure-functions-00.png
+cover: /2020/10/3-ways-mapping-apex-domains-to-azure-functions-00.png
 fullscreen: true
 ---
 
@@ -95,12 +95,12 @@ https://gist.github.com/justinyoo/8f4f33645adf7426969855b29171e91a?file=04-add-h
 [다음 포스트][post 2]에서는 이 사용자 지정 도메인에 [Let's Encrypt][letsencrypt]로 생성한 SSL 인증서를 연결하는 방법에 대해 알아보기로 하자.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2020/10/3-ways-mapping-apex-domains-to-azure-functions-01-ko.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2020/10/3-ways-mapping-apex-domains-to-azure-functions-02-ko.jpg
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2020/10/3-ways-mapping-apex-domains-to-azure-functions-03-ko.png
-[image-04]: https://sa0blogs.blob.core.windows.net/aliencube/2020/10/3-ways-mapping-apex-domains-to-azure-functions-04-ko.png
-[image-05]: https://sa0blogs.blob.core.windows.net/aliencube/2020/10/3-ways-mapping-apex-domains-to-azure-functions-05-ko.png
-[image-06]: https://sa0blogs.blob.core.windows.net/aliencube/2020/10/3-ways-mapping-apex-domains-to-azure-functions-06-ko.png
+[image-01]: /2020/10/3-ways-mapping-apex-domains-to-azure-functions-01-ko.png
+[image-02]: /2020/10/3-ways-mapping-apex-domains-to-azure-functions-02-ko.jpg
+[image-03]: /2020/10/3-ways-mapping-apex-domains-to-azure-functions-03-ko.png
+[image-04]: /2020/10/3-ways-mapping-apex-domains-to-azure-functions-04-ko.png
+[image-05]: /2020/10/3-ways-mapping-apex-domains-to-azure-functions-05-ko.png
+[image-06]: /2020/10/3-ways-mapping-apex-domains-to-azure-functions-06-ko.png
 
 [post 1]: /ko/2020/10/07/3-ways-mapping-apex-domains-to-azure-functions/
 [post 2]: /ko/2020/10/14/lets-encrypt-ssl-certificate-on-azure-functions/

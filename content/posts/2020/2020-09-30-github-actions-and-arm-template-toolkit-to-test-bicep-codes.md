@@ -9,7 +9,7 @@ tags:
 - bicep
 - github-actions
 - testing
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2020/09/github-actions-and-arm-template-toolkit-to-test-bicep-codes-00.png
+cover: /2020/09/github-actions-and-arm-template-toolkit-to-test-bicep-codes-00.png
 fullscreen: true
 ---
 
@@ -84,9 +84,9 @@ https://gist.github.com/justinyoo/0acf46566623e346553b5dabe5c1fe5b?file=03-githu
 지금까지 [Bicep CLI][gh actions bicep]와 [ARM TTK][gh actions arm ttk]를 GitHub 액션에 적용시켜 CI/CD 파이프라인을 구성해 보았다. 이 두 가지를 이용해서 앞으로는 ARM 템플릿을 작성할 때 코드 품질이 일관적으로, 그리고 가독성이 높아지는 형태로 작성해 보도록 하자.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2020/09/github-actions-and-arm-template-toolkit-to-test-bicep-codes-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2020/09/github-actions-and-arm-template-toolkit-to-test-bicep-codes-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2020/09/github-actions-and-arm-template-toolkit-to-test-bicep-codes-03.png
+[image-01]: /2020/09/github-actions-and-arm-template-toolkit-to-test-bicep-codes-01.png
+[image-02]: /2020/09/github-actions-and-arm-template-toolkit-to-test-bicep-codes-02.png
+[image-03]: /2020/09/github-actions-and-arm-template-toolkit-to-test-bicep-codes-03.png
 
 [post 1]: /ko/2020/09/09/bicep-sneak-peek/
 [post 3]: /ko/2021/04/21/bicep-refreshed/

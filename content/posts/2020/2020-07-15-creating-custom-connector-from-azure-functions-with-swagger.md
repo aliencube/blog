@@ -9,7 +9,7 @@ tags:
 - swagger
 - custom-connector
 - power-platform
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-00.png
+cover: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-00.png
 fullscreen: true
 ---
 
@@ -211,42 +211,42 @@ https://gist.github.com/justinyoo/2b4bc731ff8f2cdb5e80e28bd7dff9e7?file=08-add-d
 지금까지, [애저 펑션][az func] 앱에 [Open API 익스텐션][gh openapi]을 설치해서 자동으로 Swagger 문서를 만들어주게끔 하는 것과 더불어, 이를 이용해 [파워 오토메이트][power automate]에 쓰이는 [커스텀 커넥터][az cuscon]를 손쉽게 만드는 방법, 그리고 파워 오토메이트에 이 커스텀 커넥터를 쉽게 붙이는 방법, 마지막으로 [파워 앱][power apps]에 파워 오토메이트를 쉽게 연동하는 방법에 대해 알아 보았다. 이렇게 애저 펑션에 간단한 익스텐션 하나만 설치하는 것으로 애저 펑션 API의 확장성이 엄청나게 높아지게 되는데, 이를 이용하면 [파워 플랫폼][power platform]에서 필요한 API를 정말 손쉽게 만들 수 있으리라 확신한다.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-05.png
-[image-06]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-06.png
-[image-07]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-07.png
-[image-08]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-08.png
-[image-09]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-09.png
-[image-10]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-10.png
-[image-11]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-11.png
-[image-12]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-12.png
-[image-13]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-13.png
-[image-14]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-14.png
-[image-15]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-15.png
-[image-16]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-16.png
-[image-17]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-17.png
-[image-18]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-18.png
-[image-19]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-19.png
-[image-20]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-20.png
-[image-21]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-21.png
-[image-22]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-22.png
-[image-23]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-23.png
-[image-24]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-24.png
-[image-25]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-25.png
-[image-26]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-26.png
-[image-27]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-27.png
-[image-28]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-28.png
-[image-29]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-29.png
-[image-30]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-30.png
-[image-31]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-31.png
-[image-32]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-32.png
-[image-33]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-33.png
-[image-34]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-34.png
-[image-35]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-35.png
-[image-36]: https://sa0blogs.blob.core.windows.net/aliencube/2020/07/creating-custom-connector-from-azure-functions-with-swagger-36.png
+[image-01]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-01.png
+[image-02]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-02.png
+[image-03]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-03.png
+[image-04]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-04.png
+[image-05]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-05.png
+[image-06]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-06.png
+[image-07]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-07.png
+[image-08]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-08.png
+[image-09]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-09.png
+[image-10]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-10.png
+[image-11]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-11.png
+[image-12]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-12.png
+[image-13]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-13.png
+[image-14]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-14.png
+[image-15]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-15.png
+[image-16]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-16.png
+[image-17]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-17.png
+[image-18]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-18.png
+[image-19]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-19.png
+[image-20]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-20.png
+[image-21]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-21.png
+[image-22]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-22.png
+[image-23]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-23.png
+[image-24]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-24.png
+[image-25]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-25.png
+[image-26]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-26.png
+[image-27]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-27.png
+[image-28]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-28.png
+[image-29]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-29.png
+[image-30]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-30.png
+[image-31]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-31.png
+[image-32]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-32.png
+[image-33]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-33.png
+[image-34]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-34.png
+[image-35]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-35.png
+[image-36]: /2020/07/creating-custom-connector-from-azure-functions-with-swagger-36.png
 
 
 [post prev]: /ko/2019/02/02/introducing-swagger-ui-on-azure-functions/

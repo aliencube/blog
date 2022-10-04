@@ -9,7 +9,7 @@ tags:
 - azure-functions-proxy
 - openapi-extension
 - backward-compatibility
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2020/11/openapi-extension-to-support-azure-functions-v1-00.png
+cover: /2020/11/openapi-extension-to-support-azure-functions-v1-00.png
 fullscreen: true
 ---
 

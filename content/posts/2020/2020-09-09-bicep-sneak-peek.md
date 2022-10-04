@@ -9,7 +9,7 @@ tags:
 - azure-resource-manager
 - arm-template
 - sneak-peek
-cover: https://sa0blogs.blob.core.windows.net/aliencube/2020/09/bicep-sneak-peek-00.png
+cover: /2020/09/bicep-sneak-peek-00.png
 fullscreen: true
 ---
 

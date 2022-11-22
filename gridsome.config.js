@@ -60,6 +60,8 @@ module.exports = {
       use: 'gridsome-plugin-rss',
       options: {
         contentTypeName: 'Post',
+        latest: true,
+        dateField: 'date',
         feedOptions: {
           title: 'Aliencube',
           feed_url: 'https://blog.aliencube.org/feed.xml',

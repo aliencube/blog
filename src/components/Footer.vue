@@ -19,6 +19,9 @@
           <li class="px-2">
             <a href="/feed.xml" class="border-b border-transparent hover:border-gray-400 transition-colors duration-300">RSS Feed</a>
           </li>
+          <li class="px-2">
+            <a rel="me" href="https://mastodon.social/@justinchronicle" class="border-b border-transparent hover:border-gray-400 transition-colors duration-300"><img height="16" width="16" src="https://cdn.simpleicons.org/mastodon/6364FF" /></a>
+          </li>
         </ul>
       </nav>
     </div>
